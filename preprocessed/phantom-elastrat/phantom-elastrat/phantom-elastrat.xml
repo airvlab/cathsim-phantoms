@@ -1,0 +1,1414 @@
+<mujoco model="phantom-elastrat">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <mesh file="phantom-elastrat.obj"/>
+    <mesh file="phantom-elastrat_collision_0.obj"/>
+    <mesh file="phantom-elastrat_collision_1.obj"/>
+    <mesh file="phantom-elastrat_collision_2.obj"/>
+    <mesh file="phantom-elastrat_collision_3.obj"/>
+    <mesh file="phantom-elastrat_collision_4.obj"/>
+    <mesh file="phantom-elastrat_collision_5.obj"/>
+    <mesh file="phantom-elastrat_collision_6.obj"/>
+    <mesh file="phantom-elastrat_collision_7.obj"/>
+    <mesh file="phantom-elastrat_collision_8.obj"/>
+    <mesh file="phantom-elastrat_collision_9.obj"/>
+    <mesh file="phantom-elastrat_collision_10.obj"/>
+    <mesh file="phantom-elastrat_collision_11.obj"/>
+    <mesh file="phantom-elastrat_collision_12.obj"/>
+    <mesh file="phantom-elastrat_collision_13.obj"/>
+    <mesh file="phantom-elastrat_collision_14.obj"/>
+    <mesh file="phantom-elastrat_collision_15.obj"/>
+    <mesh file="phantom-elastrat_collision_16.obj"/>
+    <mesh file="phantom-elastrat_collision_17.obj"/>
+    <mesh file="phantom-elastrat_collision_18.obj"/>
+    <mesh file="phantom-elastrat_collision_19.obj"/>
+    <mesh file="phantom-elastrat_collision_20.obj"/>
+    <mesh file="phantom-elastrat_collision_21.obj"/>
+    <mesh file="phantom-elastrat_collision_22.obj"/>
+    <mesh file="phantom-elastrat_collision_23.obj"/>
+    <mesh file="phantom-elastrat_collision_24.obj"/>
+    <mesh file="phantom-elastrat_collision_25.obj"/>
+    <mesh file="phantom-elastrat_collision_26.obj"/>
+    <mesh file="phantom-elastrat_collision_27.obj"/>
+    <mesh file="phantom-elastrat_collision_28.obj"/>
+    <mesh file="phantom-elastrat_collision_29.obj"/>
+    <mesh file="phantom-elastrat_collision_30.obj"/>
+    <mesh file="phantom-elastrat_collision_31.obj"/>
+    <mesh file="phantom-elastrat_collision_32.obj"/>
+    <mesh file="phantom-elastrat_collision_33.obj"/>
+    <mesh file="phantom-elastrat_collision_34.obj"/>
+    <mesh file="phantom-elastrat_collision_35.obj"/>
+    <mesh file="phantom-elastrat_collision_36.obj"/>
+    <mesh file="phantom-elastrat_collision_37.obj"/>
+    <mesh file="phantom-elastrat_collision_38.obj"/>
+    <mesh file="phantom-elastrat_collision_39.obj"/>
+    <mesh file="phantom-elastrat_collision_40.obj"/>
+    <mesh file="phantom-elastrat_collision_41.obj"/>
+    <mesh file="phantom-elastrat_collision_42.obj"/>
+    <mesh file="phantom-elastrat_collision_43.obj"/>
+    <mesh file="phantom-elastrat_collision_44.obj"/>
+    <mesh file="phantom-elastrat_collision_45.obj"/>
+    <mesh file="phantom-elastrat_collision_46.obj"/>
+    <mesh file="phantom-elastrat_collision_47.obj"/>
+    <mesh file="phantom-elastrat_collision_48.obj"/>
+    <mesh file="phantom-elastrat_collision_49.obj"/>
+    <mesh file="phantom-elastrat_collision_50.obj"/>
+    <mesh file="phantom-elastrat_collision_51.obj"/>
+    <mesh file="phantom-elastrat_collision_52.obj"/>
+    <mesh file="phantom-elastrat_collision_53.obj"/>
+    <mesh file="phantom-elastrat_collision_54.obj"/>
+    <mesh file="phantom-elastrat_collision_55.obj"/>
+    <mesh file="phantom-elastrat_collision_56.obj"/>
+    <mesh file="phantom-elastrat_collision_57.obj"/>
+    <mesh file="phantom-elastrat_collision_58.obj"/>
+    <mesh file="phantom-elastrat_collision_59.obj"/>
+    <mesh file="phantom-elastrat_collision_60.obj"/>
+    <mesh file="phantom-elastrat_collision_61.obj"/>
+    <mesh file="phantom-elastrat_collision_62.obj"/>
+    <mesh file="phantom-elastrat_collision_63.obj"/>
+    <mesh file="phantom-elastrat_collision_64.obj"/>
+    <mesh file="phantom-elastrat_collision_65.obj"/>
+    <mesh file="phantom-elastrat_collision_66.obj"/>
+    <mesh file="phantom-elastrat_collision_67.obj"/>
+    <mesh file="phantom-elastrat_collision_68.obj"/>
+    <mesh file="phantom-elastrat_collision_69.obj"/>
+    <mesh file="phantom-elastrat_collision_70.obj"/>
+    <mesh file="phantom-elastrat_collision_71.obj"/>
+    <mesh file="phantom-elastrat_collision_72.obj"/>
+    <mesh file="phantom-elastrat_collision_73.obj"/>
+    <mesh file="phantom-elastrat_collision_74.obj"/>
+    <mesh file="phantom-elastrat_collision_75.obj"/>
+    <mesh file="phantom-elastrat_collision_76.obj"/>
+    <mesh file="phantom-elastrat_collision_77.obj"/>
+    <mesh file="phantom-elastrat_collision_78.obj"/>
+    <mesh file="phantom-elastrat_collision_79.obj"/>
+    <mesh file="phantom-elastrat_collision_80.obj"/>
+    <mesh file="phantom-elastrat_collision_81.obj"/>
+    <mesh file="phantom-elastrat_collision_82.obj"/>
+    <mesh file="phantom-elastrat_collision_83.obj"/>
+    <mesh file="phantom-elastrat_collision_84.obj"/>
+    <mesh file="phantom-elastrat_collision_85.obj"/>
+    <mesh file="phantom-elastrat_collision_86.obj"/>
+    <mesh file="phantom-elastrat_collision_87.obj"/>
+    <mesh file="phantom-elastrat_collision_88.obj"/>
+    <mesh file="phantom-elastrat_collision_89.obj"/>
+    <mesh file="phantom-elastrat_collision_90.obj"/>
+    <mesh file="phantom-elastrat_collision_91.obj"/>
+    <mesh file="phantom-elastrat_collision_92.obj"/>
+    <mesh file="phantom-elastrat_collision_93.obj"/>
+    <mesh file="phantom-elastrat_collision_94.obj"/>
+    <mesh file="phantom-elastrat_collision_95.obj"/>
+    <mesh file="phantom-elastrat_collision_96.obj"/>
+    <mesh file="phantom-elastrat_collision_97.obj"/>
+    <mesh file="phantom-elastrat_collision_98.obj"/>
+    <mesh file="phantom-elastrat_collision_99.obj"/>
+    <mesh file="phantom-elastrat_collision_100.obj"/>
+    <mesh file="phantom-elastrat_collision_101.obj"/>
+    <mesh file="phantom-elastrat_collision_102.obj"/>
+    <mesh file="phantom-elastrat_collision_103.obj"/>
+    <mesh file="phantom-elastrat_collision_104.obj"/>
+    <mesh file="phantom-elastrat_collision_105.obj"/>
+    <mesh file="phantom-elastrat_collision_106.obj"/>
+    <mesh file="phantom-elastrat_collision_107.obj"/>
+    <mesh file="phantom-elastrat_collision_108.obj"/>
+    <mesh file="phantom-elastrat_collision_109.obj"/>
+    <mesh file="phantom-elastrat_collision_110.obj"/>
+    <mesh file="phantom-elastrat_collision_111.obj"/>
+    <mesh file="phantom-elastrat_collision_112.obj"/>
+    <mesh file="phantom-elastrat_collision_113.obj"/>
+    <mesh file="phantom-elastrat_collision_114.obj"/>
+    <mesh file="phantom-elastrat_collision_115.obj"/>
+    <mesh file="phantom-elastrat_collision_116.obj"/>
+    <mesh file="phantom-elastrat_collision_117.obj"/>
+    <mesh file="phantom-elastrat_collision_118.obj"/>
+    <mesh file="phantom-elastrat_collision_119.obj"/>
+    <mesh file="phantom-elastrat_collision_120.obj"/>
+    <mesh file="phantom-elastrat_collision_121.obj"/>
+    <mesh file="phantom-elastrat_collision_122.obj"/>
+    <mesh file="phantom-elastrat_collision_123.obj"/>
+    <mesh file="phantom-elastrat_collision_124.obj"/>
+    <mesh file="phantom-elastrat_collision_125.obj"/>
+    <mesh file="phantom-elastrat_collision_126.obj"/>
+    <mesh file="phantom-elastrat_collision_127.obj"/>
+    <mesh file="phantom-elastrat_collision_128.obj"/>
+    <mesh file="phantom-elastrat_collision_129.obj"/>
+    <mesh file="phantom-elastrat_collision_130.obj"/>
+    <mesh file="phantom-elastrat_collision_131.obj"/>
+    <mesh file="phantom-elastrat_collision_132.obj"/>
+    <mesh file="phantom-elastrat_collision_133.obj"/>
+    <mesh file="phantom-elastrat_collision_134.obj"/>
+    <mesh file="phantom-elastrat_collision_135.obj"/>
+    <mesh file="phantom-elastrat_collision_136.obj"/>
+    <mesh file="phantom-elastrat_collision_137.obj"/>
+    <mesh file="phantom-elastrat_collision_138.obj"/>
+    <mesh file="phantom-elastrat_collision_139.obj"/>
+    <mesh file="phantom-elastrat_collision_140.obj"/>
+    <mesh file="phantom-elastrat_collision_141.obj"/>
+    <mesh file="phantom-elastrat_collision_142.obj"/>
+    <mesh file="phantom-elastrat_collision_143.obj"/>
+    <mesh file="phantom-elastrat_collision_144.obj"/>
+    <mesh file="phantom-elastrat_collision_145.obj"/>
+    <mesh file="phantom-elastrat_collision_146.obj"/>
+    <mesh file="phantom-elastrat_collision_147.obj"/>
+    <mesh file="phantom-elastrat_collision_148.obj"/>
+    <mesh file="phantom-elastrat_collision_149.obj"/>
+    <mesh file="phantom-elastrat_collision_150.obj"/>
+    <mesh file="phantom-elastrat_collision_151.obj"/>
+    <mesh file="phantom-elastrat_collision_152.obj"/>
+    <mesh file="phantom-elastrat_collision_153.obj"/>
+    <mesh file="phantom-elastrat_collision_154.obj"/>
+    <mesh file="phantom-elastrat_collision_155.obj"/>
+    <mesh file="phantom-elastrat_collision_156.obj"/>
+    <mesh file="phantom-elastrat_collision_157.obj"/>
+    <mesh file="phantom-elastrat_collision_158.obj"/>
+    <mesh file="phantom-elastrat_collision_159.obj"/>
+    <mesh file="phantom-elastrat_collision_160.obj"/>
+    <mesh file="phantom-elastrat_collision_161.obj"/>
+    <mesh file="phantom-elastrat_collision_162.obj"/>
+    <mesh file="phantom-elastrat_collision_163.obj"/>
+    <mesh file="phantom-elastrat_collision_164.obj"/>
+    <mesh file="phantom-elastrat_collision_165.obj"/>
+    <mesh file="phantom-elastrat_collision_166.obj"/>
+    <mesh file="phantom-elastrat_collision_167.obj"/>
+    <mesh file="phantom-elastrat_collision_168.obj"/>
+    <mesh file="phantom-elastrat_collision_169.obj"/>
+    <mesh file="phantom-elastrat_collision_170.obj"/>
+    <mesh file="phantom-elastrat_collision_171.obj"/>
+    <mesh file="phantom-elastrat_collision_172.obj"/>
+    <mesh file="phantom-elastrat_collision_173.obj"/>
+    <mesh file="phantom-elastrat_collision_174.obj"/>
+    <mesh file="phantom-elastrat_collision_175.obj"/>
+    <mesh file="phantom-elastrat_collision_176.obj"/>
+    <mesh file="phantom-elastrat_collision_177.obj"/>
+    <mesh file="phantom-elastrat_collision_178.obj"/>
+    <mesh file="phantom-elastrat_collision_179.obj"/>
+    <mesh file="phantom-elastrat_collision_180.obj"/>
+    <mesh file="phantom-elastrat_collision_181.obj"/>
+    <mesh file="phantom-elastrat_collision_182.obj"/>
+    <mesh file="phantom-elastrat_collision_183.obj"/>
+    <mesh file="phantom-elastrat_collision_184.obj"/>
+    <mesh file="phantom-elastrat_collision_185.obj"/>
+    <mesh file="phantom-elastrat_collision_186.obj"/>
+    <mesh file="phantom-elastrat_collision_187.obj"/>
+    <mesh file="phantom-elastrat_collision_188.obj"/>
+    <mesh file="phantom-elastrat_collision_189.obj"/>
+    <mesh file="phantom-elastrat_collision_190.obj"/>
+    <mesh file="phantom-elastrat_collision_191.obj"/>
+    <mesh file="phantom-elastrat_collision_192.obj"/>
+    <mesh file="phantom-elastrat_collision_193.obj"/>
+    <mesh file="phantom-elastrat_collision_194.obj"/>
+    <mesh file="phantom-elastrat_collision_195.obj"/>
+    <mesh file="phantom-elastrat_collision_196.obj"/>
+    <mesh file="phantom-elastrat_collision_197.obj"/>
+    <mesh file="phantom-elastrat_collision_198.obj"/>
+    <mesh file="phantom-elastrat_collision_199.obj"/>
+    <mesh file="phantom-elastrat_collision_200.obj"/>
+    <mesh file="phantom-elastrat_collision_201.obj"/>
+    <mesh file="phantom-elastrat_collision_202.obj"/>
+    <mesh file="phantom-elastrat_collision_203.obj"/>
+    <mesh file="phantom-elastrat_collision_204.obj"/>
+    <mesh file="phantom-elastrat_collision_205.obj"/>
+    <mesh file="phantom-elastrat_collision_206.obj"/>
+    <mesh file="phantom-elastrat_collision_207.obj"/>
+    <mesh file="phantom-elastrat_collision_208.obj"/>
+    <mesh file="phantom-elastrat_collision_209.obj"/>
+    <mesh file="phantom-elastrat_collision_210.obj"/>
+    <mesh file="phantom-elastrat_collision_211.obj"/>
+    <mesh file="phantom-elastrat_collision_212.obj"/>
+    <mesh file="phantom-elastrat_collision_213.obj"/>
+    <mesh file="phantom-elastrat_collision_214.obj"/>
+    <mesh file="phantom-elastrat_collision_215.obj"/>
+    <mesh file="phantom-elastrat_collision_216.obj"/>
+    <mesh file="phantom-elastrat_collision_217.obj"/>
+    <mesh file="phantom-elastrat_collision_218.obj"/>
+    <mesh file="phantom-elastrat_collision_219.obj"/>
+    <mesh file="phantom-elastrat_collision_220.obj"/>
+    <mesh file="phantom-elastrat_collision_221.obj"/>
+    <mesh file="phantom-elastrat_collision_222.obj"/>
+    <mesh file="phantom-elastrat_collision_223.obj"/>
+    <mesh file="phantom-elastrat_collision_224.obj"/>
+    <mesh file="phantom-elastrat_collision_225.obj"/>
+    <mesh file="phantom-elastrat_collision_226.obj"/>
+    <mesh file="phantom-elastrat_collision_227.obj"/>
+    <mesh file="phantom-elastrat_collision_228.obj"/>
+    <mesh file="phantom-elastrat_collision_229.obj"/>
+    <mesh file="phantom-elastrat_collision_230.obj"/>
+    <mesh file="phantom-elastrat_collision_231.obj"/>
+    <mesh file="phantom-elastrat_collision_232.obj"/>
+    <mesh file="phantom-elastrat_collision_233.obj"/>
+    <mesh file="phantom-elastrat_collision_234.obj"/>
+    <mesh file="phantom-elastrat_collision_235.obj"/>
+    <mesh file="phantom-elastrat_collision_236.obj"/>
+    <mesh file="phantom-elastrat_collision_237.obj"/>
+    <mesh file="phantom-elastrat_collision_238.obj"/>
+    <mesh file="phantom-elastrat_collision_239.obj"/>
+    <mesh file="phantom-elastrat_collision_240.obj"/>
+    <mesh file="phantom-elastrat_collision_241.obj"/>
+    <mesh file="phantom-elastrat_collision_242.obj"/>
+    <mesh file="phantom-elastrat_collision_243.obj"/>
+    <mesh file="phantom-elastrat_collision_244.obj"/>
+    <mesh file="phantom-elastrat_collision_245.obj"/>
+    <mesh file="phantom-elastrat_collision_246.obj"/>
+    <mesh file="phantom-elastrat_collision_247.obj"/>
+    <mesh file="phantom-elastrat_collision_248.obj"/>
+    <mesh file="phantom-elastrat_collision_249.obj"/>
+    <mesh file="phantom-elastrat_collision_250.obj"/>
+    <mesh file="phantom-elastrat_collision_251.obj"/>
+    <mesh file="phantom-elastrat_collision_252.obj"/>
+    <mesh file="phantom-elastrat_collision_253.obj"/>
+    <mesh file="phantom-elastrat_collision_254.obj"/>
+    <mesh file="phantom-elastrat_collision_255.obj"/>
+    <mesh file="phantom-elastrat_collision_256.obj"/>
+    <mesh file="phantom-elastrat_collision_257.obj"/>
+    <mesh file="phantom-elastrat_collision_258.obj"/>
+    <mesh file="phantom-elastrat_collision_259.obj"/>
+    <mesh file="phantom-elastrat_collision_260.obj"/>
+    <mesh file="phantom-elastrat_collision_261.obj"/>
+    <mesh file="phantom-elastrat_collision_262.obj"/>
+    <mesh file="phantom-elastrat_collision_263.obj"/>
+    <mesh file="phantom-elastrat_collision_264.obj"/>
+    <mesh file="phantom-elastrat_collision_265.obj"/>
+    <mesh file="phantom-elastrat_collision_266.obj"/>
+    <mesh file="phantom-elastrat_collision_267.obj"/>
+    <mesh file="phantom-elastrat_collision_268.obj"/>
+    <mesh file="phantom-elastrat_collision_269.obj"/>
+    <mesh file="phantom-elastrat_collision_270.obj"/>
+    <mesh file="phantom-elastrat_collision_271.obj"/>
+    <mesh file="phantom-elastrat_collision_272.obj"/>
+    <mesh file="phantom-elastrat_collision_273.obj"/>
+    <mesh file="phantom-elastrat_collision_274.obj"/>
+    <mesh file="phantom-elastrat_collision_275.obj"/>
+    <mesh file="phantom-elastrat_collision_276.obj"/>
+    <mesh file="phantom-elastrat_collision_277.obj"/>
+    <mesh file="phantom-elastrat_collision_278.obj"/>
+    <mesh file="phantom-elastrat_collision_279.obj"/>
+    <mesh file="phantom-elastrat_collision_280.obj"/>
+    <mesh file="phantom-elastrat_collision_281.obj"/>
+    <mesh file="phantom-elastrat_collision_282.obj"/>
+    <mesh file="phantom-elastrat_collision_283.obj"/>
+    <mesh file="phantom-elastrat_collision_284.obj"/>
+    <mesh file="phantom-elastrat_collision_285.obj"/>
+    <mesh file="phantom-elastrat_collision_286.obj"/>
+    <mesh file="phantom-elastrat_collision_287.obj"/>
+    <mesh file="phantom-elastrat_collision_288.obj"/>
+    <mesh file="phantom-elastrat_collision_289.obj"/>
+    <mesh file="phantom-elastrat_collision_290.obj"/>
+    <mesh file="phantom-elastrat_collision_291.obj"/>
+    <mesh file="phantom-elastrat_collision_292.obj"/>
+    <mesh file="phantom-elastrat_collision_293.obj"/>
+    <mesh file="phantom-elastrat_collision_294.obj"/>
+    <mesh file="phantom-elastrat_collision_295.obj"/>
+    <mesh file="phantom-elastrat_collision_296.obj"/>
+    <mesh file="phantom-elastrat_collision_297.obj"/>
+    <mesh file="phantom-elastrat_collision_298.obj"/>
+    <mesh file="phantom-elastrat_collision_299.obj"/>
+    <mesh file="phantom-elastrat_collision_300.obj"/>
+    <mesh file="phantom-elastrat_collision_301.obj"/>
+    <mesh file="phantom-elastrat_collision_302.obj"/>
+    <mesh file="phantom-elastrat_collision_303.obj"/>
+    <mesh file="phantom-elastrat_collision_304.obj"/>
+    <mesh file="phantom-elastrat_collision_305.obj"/>
+    <mesh file="phantom-elastrat_collision_306.obj"/>
+    <mesh file="phantom-elastrat_collision_307.obj"/>
+    <mesh file="phantom-elastrat_collision_308.obj"/>
+    <mesh file="phantom-elastrat_collision_309.obj"/>
+    <mesh file="phantom-elastrat_collision_310.obj"/>
+    <mesh file="phantom-elastrat_collision_311.obj"/>
+    <mesh file="phantom-elastrat_collision_312.obj"/>
+    <mesh file="phantom-elastrat_collision_313.obj"/>
+    <mesh file="phantom-elastrat_collision_314.obj"/>
+    <mesh file="phantom-elastrat_collision_315.obj"/>
+    <mesh file="phantom-elastrat_collision_316.obj"/>
+    <mesh file="phantom-elastrat_collision_317.obj"/>
+    <mesh file="phantom-elastrat_collision_318.obj"/>
+    <mesh file="phantom-elastrat_collision_319.obj"/>
+    <mesh file="phantom-elastrat_collision_320.obj"/>
+    <mesh file="phantom-elastrat_collision_321.obj"/>
+    <mesh file="phantom-elastrat_collision_322.obj"/>
+    <mesh file="phantom-elastrat_collision_323.obj"/>
+    <mesh file="phantom-elastrat_collision_324.obj"/>
+    <mesh file="phantom-elastrat_collision_325.obj"/>
+    <mesh file="phantom-elastrat_collision_326.obj"/>
+    <mesh file="phantom-elastrat_collision_327.obj"/>
+    <mesh file="phantom-elastrat_collision_328.obj"/>
+    <mesh file="phantom-elastrat_collision_329.obj"/>
+    <mesh file="phantom-elastrat_collision_330.obj"/>
+    <mesh file="phantom-elastrat_collision_331.obj"/>
+    <mesh file="phantom-elastrat_collision_332.obj"/>
+    <mesh file="phantom-elastrat_collision_333.obj"/>
+    <mesh file="phantom-elastrat_collision_334.obj"/>
+    <mesh file="phantom-elastrat_collision_335.obj"/>
+    <mesh file="phantom-elastrat_collision_336.obj"/>
+    <mesh file="phantom-elastrat_collision_337.obj"/>
+    <mesh file="phantom-elastrat_collision_338.obj"/>
+    <mesh file="phantom-elastrat_collision_339.obj"/>
+    <mesh file="phantom-elastrat_collision_340.obj"/>
+    <mesh file="phantom-elastrat_collision_341.obj"/>
+    <mesh file="phantom-elastrat_collision_342.obj"/>
+    <mesh file="phantom-elastrat_collision_343.obj"/>
+    <mesh file="phantom-elastrat_collision_344.obj"/>
+    <mesh file="phantom-elastrat_collision_345.obj"/>
+    <mesh file="phantom-elastrat_collision_346.obj"/>
+    <mesh file="phantom-elastrat_collision_347.obj"/>
+    <mesh file="phantom-elastrat_collision_348.obj"/>
+    <mesh file="phantom-elastrat_collision_349.obj"/>
+    <mesh file="phantom-elastrat_collision_350.obj"/>
+    <mesh file="phantom-elastrat_collision_351.obj"/>
+    <mesh file="phantom-elastrat_collision_352.obj"/>
+    <mesh file="phantom-elastrat_collision_353.obj"/>
+    <mesh file="phantom-elastrat_collision_354.obj"/>
+    <mesh file="phantom-elastrat_collision_355.obj"/>
+    <mesh file="phantom-elastrat_collision_356.obj"/>
+    <mesh file="phantom-elastrat_collision_357.obj"/>
+    <mesh file="phantom-elastrat_collision_358.obj"/>
+    <mesh file="phantom-elastrat_collision_359.obj"/>
+    <mesh file="phantom-elastrat_collision_360.obj"/>
+    <mesh file="phantom-elastrat_collision_361.obj"/>
+    <mesh file="phantom-elastrat_collision_362.obj"/>
+    <mesh file="phantom-elastrat_collision_363.obj"/>
+    <mesh file="phantom-elastrat_collision_364.obj"/>
+    <mesh file="phantom-elastrat_collision_365.obj"/>
+    <mesh file="phantom-elastrat_collision_366.obj"/>
+    <mesh file="phantom-elastrat_collision_367.obj"/>
+    <mesh file="phantom-elastrat_collision_368.obj"/>
+    <mesh file="phantom-elastrat_collision_369.obj"/>
+    <mesh file="phantom-elastrat_collision_370.obj"/>
+    <mesh file="phantom-elastrat_collision_371.obj"/>
+    <mesh file="phantom-elastrat_collision_372.obj"/>
+    <mesh file="phantom-elastrat_collision_373.obj"/>
+    <mesh file="phantom-elastrat_collision_374.obj"/>
+    <mesh file="phantom-elastrat_collision_375.obj"/>
+    <mesh file="phantom-elastrat_collision_376.obj"/>
+    <mesh file="phantom-elastrat_collision_377.obj"/>
+    <mesh file="phantom-elastrat_collision_378.obj"/>
+    <mesh file="phantom-elastrat_collision_379.obj"/>
+    <mesh file="phantom-elastrat_collision_380.obj"/>
+    <mesh file="phantom-elastrat_collision_381.obj"/>
+    <mesh file="phantom-elastrat_collision_382.obj"/>
+    <mesh file="phantom-elastrat_collision_383.obj"/>
+    <mesh file="phantom-elastrat_collision_384.obj"/>
+    <mesh file="phantom-elastrat_collision_385.obj"/>
+    <mesh file="phantom-elastrat_collision_386.obj"/>
+    <mesh file="phantom-elastrat_collision_387.obj"/>
+    <mesh file="phantom-elastrat_collision_388.obj"/>
+    <mesh file="phantom-elastrat_collision_389.obj"/>
+    <mesh file="phantom-elastrat_collision_390.obj"/>
+    <mesh file="phantom-elastrat_collision_391.obj"/>
+    <mesh file="phantom-elastrat_collision_392.obj"/>
+    <mesh file="phantom-elastrat_collision_393.obj"/>
+    <mesh file="phantom-elastrat_collision_394.obj"/>
+    <mesh file="phantom-elastrat_collision_395.obj"/>
+    <mesh file="phantom-elastrat_collision_396.obj"/>
+    <mesh file="phantom-elastrat_collision_397.obj"/>
+    <mesh file="phantom-elastrat_collision_398.obj"/>
+    <mesh file="phantom-elastrat_collision_399.obj"/>
+    <mesh file="phantom-elastrat_collision_400.obj"/>
+    <mesh file="phantom-elastrat_collision_401.obj"/>
+    <mesh file="phantom-elastrat_collision_402.obj"/>
+    <mesh file="phantom-elastrat_collision_403.obj"/>
+    <mesh file="phantom-elastrat_collision_404.obj"/>
+    <mesh file="phantom-elastrat_collision_405.obj"/>
+    <mesh file="phantom-elastrat_collision_406.obj"/>
+    <mesh file="phantom-elastrat_collision_407.obj"/>
+    <mesh file="phantom-elastrat_collision_408.obj"/>
+    <mesh file="phantom-elastrat_collision_409.obj"/>
+    <mesh file="phantom-elastrat_collision_410.obj"/>
+    <mesh file="phantom-elastrat_collision_411.obj"/>
+    <mesh file="phantom-elastrat_collision_412.obj"/>
+    <mesh file="phantom-elastrat_collision_413.obj"/>
+    <mesh file="phantom-elastrat_collision_414.obj"/>
+    <mesh file="phantom-elastrat_collision_415.obj"/>
+    <mesh file="phantom-elastrat_collision_416.obj"/>
+    <mesh file="phantom-elastrat_collision_417.obj"/>
+    <mesh file="phantom-elastrat_collision_418.obj"/>
+    <mesh file="phantom-elastrat_collision_419.obj"/>
+    <mesh file="phantom-elastrat_collision_420.obj"/>
+    <mesh file="phantom-elastrat_collision_421.obj"/>
+    <mesh file="phantom-elastrat_collision_422.obj"/>
+    <mesh file="phantom-elastrat_collision_423.obj"/>
+    <mesh file="phantom-elastrat_collision_424.obj"/>
+    <mesh file="phantom-elastrat_collision_425.obj"/>
+    <mesh file="phantom-elastrat_collision_426.obj"/>
+    <mesh file="phantom-elastrat_collision_427.obj"/>
+    <mesh file="phantom-elastrat_collision_428.obj"/>
+    <mesh file="phantom-elastrat_collision_429.obj"/>
+    <mesh file="phantom-elastrat_collision_430.obj"/>
+    <mesh file="phantom-elastrat_collision_431.obj"/>
+    <mesh file="phantom-elastrat_collision_432.obj"/>
+    <mesh file="phantom-elastrat_collision_433.obj"/>
+    <mesh file="phantom-elastrat_collision_434.obj"/>
+    <mesh file="phantom-elastrat_collision_435.obj"/>
+    <mesh file="phantom-elastrat_collision_436.obj"/>
+    <mesh file="phantom-elastrat_collision_437.obj"/>
+    <mesh file="phantom-elastrat_collision_438.obj"/>
+    <mesh file="phantom-elastrat_collision_439.obj"/>
+    <mesh file="phantom-elastrat_collision_440.obj"/>
+    <mesh file="phantom-elastrat_collision_441.obj"/>
+    <mesh file="phantom-elastrat_collision_442.obj"/>
+    <mesh file="phantom-elastrat_collision_443.obj"/>
+    <mesh file="phantom-elastrat_collision_444.obj"/>
+    <mesh file="phantom-elastrat_collision_445.obj"/>
+    <mesh file="phantom-elastrat_collision_446.obj"/>
+    <mesh file="phantom-elastrat_collision_447.obj"/>
+    <mesh file="phantom-elastrat_collision_448.obj"/>
+    <mesh file="phantom-elastrat_collision_449.obj"/>
+    <mesh file="phantom-elastrat_collision_450.obj"/>
+    <mesh file="phantom-elastrat_collision_451.obj"/>
+    <mesh file="phantom-elastrat_collision_452.obj"/>
+    <mesh file="phantom-elastrat_collision_453.obj"/>
+    <mesh file="phantom-elastrat_collision_454.obj"/>
+    <mesh file="phantom-elastrat_collision_455.obj"/>
+    <mesh file="phantom-elastrat_collision_456.obj"/>
+    <mesh file="phantom-elastrat_collision_457.obj"/>
+    <mesh file="phantom-elastrat_collision_458.obj"/>
+    <mesh file="phantom-elastrat_collision_459.obj"/>
+    <mesh file="phantom-elastrat_collision_460.obj"/>
+    <mesh file="phantom-elastrat_collision_461.obj"/>
+    <mesh file="phantom-elastrat_collision_462.obj"/>
+    <mesh file="phantom-elastrat_collision_463.obj"/>
+    <mesh file="phantom-elastrat_collision_464.obj"/>
+    <mesh file="phantom-elastrat_collision_465.obj"/>
+    <mesh file="phantom-elastrat_collision_466.obj"/>
+    <mesh file="phantom-elastrat_collision_467.obj"/>
+    <mesh file="phantom-elastrat_collision_468.obj"/>
+    <mesh file="phantom-elastrat_collision_469.obj"/>
+    <mesh file="phantom-elastrat_collision_470.obj"/>
+    <mesh file="phantom-elastrat_collision_471.obj"/>
+    <mesh file="phantom-elastrat_collision_472.obj"/>
+    <mesh file="phantom-elastrat_collision_473.obj"/>
+    <mesh file="phantom-elastrat_collision_474.obj"/>
+    <mesh file="phantom-elastrat_collision_475.obj"/>
+    <mesh file="phantom-elastrat_collision_476.obj"/>
+    <mesh file="phantom-elastrat_collision_477.obj"/>
+    <mesh file="phantom-elastrat_collision_478.obj"/>
+    <mesh file="phantom-elastrat_collision_479.obj"/>
+    <mesh file="phantom-elastrat_collision_480.obj"/>
+    <mesh file="phantom-elastrat_collision_481.obj"/>
+    <mesh file="phantom-elastrat_collision_482.obj"/>
+    <mesh file="phantom-elastrat_collision_483.obj"/>
+    <mesh file="phantom-elastrat_collision_484.obj"/>
+    <mesh file="phantom-elastrat_collision_485.obj"/>
+    <mesh file="phantom-elastrat_collision_486.obj"/>
+    <mesh file="phantom-elastrat_collision_487.obj"/>
+    <mesh file="phantom-elastrat_collision_488.obj"/>
+    <mesh file="phantom-elastrat_collision_489.obj"/>
+    <mesh file="phantom-elastrat_collision_490.obj"/>
+    <mesh file="phantom-elastrat_collision_491.obj"/>
+    <mesh file="phantom-elastrat_collision_492.obj"/>
+    <mesh file="phantom-elastrat_collision_493.obj"/>
+    <mesh file="phantom-elastrat_collision_494.obj"/>
+    <mesh file="phantom-elastrat_collision_495.obj"/>
+    <mesh file="phantom-elastrat_collision_496.obj"/>
+    <mesh file="phantom-elastrat_collision_497.obj"/>
+    <mesh file="phantom-elastrat_collision_498.obj"/>
+    <mesh file="phantom-elastrat_collision_499.obj"/>
+    <mesh file="phantom-elastrat_collision_500.obj"/>
+    <mesh file="phantom-elastrat_collision_501.obj"/>
+    <mesh file="phantom-elastrat_collision_502.obj"/>
+    <mesh file="phantom-elastrat_collision_503.obj"/>
+    <mesh file="phantom-elastrat_collision_504.obj"/>
+    <mesh file="phantom-elastrat_collision_505.obj"/>
+    <mesh file="phantom-elastrat_collision_506.obj"/>
+    <mesh file="phantom-elastrat_collision_507.obj"/>
+    <mesh file="phantom-elastrat_collision_508.obj"/>
+    <mesh file="phantom-elastrat_collision_509.obj"/>
+    <mesh file="phantom-elastrat_collision_510.obj"/>
+    <mesh file="phantom-elastrat_collision_511.obj"/>
+    <mesh file="phantom-elastrat_collision_512.obj"/>
+    <mesh file="phantom-elastrat_collision_513.obj"/>
+    <mesh file="phantom-elastrat_collision_514.obj"/>
+    <mesh file="phantom-elastrat_collision_515.obj"/>
+    <mesh file="phantom-elastrat_collision_516.obj"/>
+    <mesh file="phantom-elastrat_collision_517.obj"/>
+    <mesh file="phantom-elastrat_collision_518.obj"/>
+    <mesh file="phantom-elastrat_collision_519.obj"/>
+    <mesh file="phantom-elastrat_collision_520.obj"/>
+    <mesh file="phantom-elastrat_collision_521.obj"/>
+    <mesh file="phantom-elastrat_collision_522.obj"/>
+    <mesh file="phantom-elastrat_collision_523.obj"/>
+    <mesh file="phantom-elastrat_collision_524.obj"/>
+    <mesh file="phantom-elastrat_collision_525.obj"/>
+    <mesh file="phantom-elastrat_collision_526.obj"/>
+    <mesh file="phantom-elastrat_collision_527.obj"/>
+    <mesh file="phantom-elastrat_collision_528.obj"/>
+    <mesh file="phantom-elastrat_collision_529.obj"/>
+    <mesh file="phantom-elastrat_collision_530.obj"/>
+    <mesh file="phantom-elastrat_collision_531.obj"/>
+    <mesh file="phantom-elastrat_collision_532.obj"/>
+    <mesh file="phantom-elastrat_collision_533.obj"/>
+    <mesh file="phantom-elastrat_collision_534.obj"/>
+    <mesh file="phantom-elastrat_collision_535.obj"/>
+    <mesh file="phantom-elastrat_collision_536.obj"/>
+    <mesh file="phantom-elastrat_collision_537.obj"/>
+    <mesh file="phantom-elastrat_collision_538.obj"/>
+    <mesh file="phantom-elastrat_collision_539.obj"/>
+    <mesh file="phantom-elastrat_collision_540.obj"/>
+    <mesh file="phantom-elastrat_collision_541.obj"/>
+    <mesh file="phantom-elastrat_collision_542.obj"/>
+    <mesh file="phantom-elastrat_collision_543.obj"/>
+    <mesh file="phantom-elastrat_collision_544.obj"/>
+    <mesh file="phantom-elastrat_collision_545.obj"/>
+    <mesh file="phantom-elastrat_collision_546.obj"/>
+    <mesh file="phantom-elastrat_collision_547.obj"/>
+    <mesh file="phantom-elastrat_collision_548.obj"/>
+    <mesh file="phantom-elastrat_collision_549.obj"/>
+    <mesh file="phantom-elastrat_collision_550.obj"/>
+    <mesh file="phantom-elastrat_collision_551.obj"/>
+    <mesh file="phantom-elastrat_collision_552.obj"/>
+    <mesh file="phantom-elastrat_collision_553.obj"/>
+    <mesh file="phantom-elastrat_collision_554.obj"/>
+    <mesh file="phantom-elastrat_collision_555.obj"/>
+    <mesh file="phantom-elastrat_collision_556.obj"/>
+    <mesh file="phantom-elastrat_collision_557.obj"/>
+    <mesh file="phantom-elastrat_collision_558.obj"/>
+    <mesh file="phantom-elastrat_collision_559.obj"/>
+    <mesh file="phantom-elastrat_collision_560.obj"/>
+    <mesh file="phantom-elastrat_collision_561.obj"/>
+    <mesh file="phantom-elastrat_collision_562.obj"/>
+    <mesh file="phantom-elastrat_collision_563.obj"/>
+    <mesh file="phantom-elastrat_collision_564.obj"/>
+    <mesh file="phantom-elastrat_collision_565.obj"/>
+    <mesh file="phantom-elastrat_collision_566.obj"/>
+    <mesh file="phantom-elastrat_collision_567.obj"/>
+    <mesh file="phantom-elastrat_collision_568.obj"/>
+    <mesh file="phantom-elastrat_collision_569.obj"/>
+    <mesh file="phantom-elastrat_collision_570.obj"/>
+    <mesh file="phantom-elastrat_collision_571.obj"/>
+    <mesh file="phantom-elastrat_collision_572.obj"/>
+    <mesh file="phantom-elastrat_collision_573.obj"/>
+    <mesh file="phantom-elastrat_collision_574.obj"/>
+    <mesh file="phantom-elastrat_collision_575.obj"/>
+    <mesh file="phantom-elastrat_collision_576.obj"/>
+    <mesh file="phantom-elastrat_collision_577.obj"/>
+    <mesh file="phantom-elastrat_collision_578.obj"/>
+    <mesh file="phantom-elastrat_collision_579.obj"/>
+    <mesh file="phantom-elastrat_collision_580.obj"/>
+    <mesh file="phantom-elastrat_collision_581.obj"/>
+    <mesh file="phantom-elastrat_collision_582.obj"/>
+    <mesh file="phantom-elastrat_collision_583.obj"/>
+    <mesh file="phantom-elastrat_collision_584.obj"/>
+    <mesh file="phantom-elastrat_collision_585.obj"/>
+    <mesh file="phantom-elastrat_collision_586.obj"/>
+    <mesh file="phantom-elastrat_collision_587.obj"/>
+    <mesh file="phantom-elastrat_collision_588.obj"/>
+    <mesh file="phantom-elastrat_collision_589.obj"/>
+    <mesh file="phantom-elastrat_collision_590.obj"/>
+    <mesh file="phantom-elastrat_collision_591.obj"/>
+    <mesh file="phantom-elastrat_collision_592.obj"/>
+    <mesh file="phantom-elastrat_collision_593.obj"/>
+    <mesh file="phantom-elastrat_collision_594.obj"/>
+    <mesh file="phantom-elastrat_collision_595.obj"/>
+    <mesh file="phantom-elastrat_collision_596.obj"/>
+    <mesh file="phantom-elastrat_collision_597.obj"/>
+    <mesh file="phantom-elastrat_collision_598.obj"/>
+    <mesh file="phantom-elastrat_collision_599.obj"/>
+    <mesh file="phantom-elastrat_collision_600.obj"/>
+    <mesh file="phantom-elastrat_collision_601.obj"/>
+    <mesh file="phantom-elastrat_collision_602.obj"/>
+    <mesh file="phantom-elastrat_collision_603.obj"/>
+    <mesh file="phantom-elastrat_collision_604.obj"/>
+    <mesh file="phantom-elastrat_collision_605.obj"/>
+    <mesh file="phantom-elastrat_collision_606.obj"/>
+    <mesh file="phantom-elastrat_collision_607.obj"/>
+    <mesh file="phantom-elastrat_collision_608.obj"/>
+    <mesh file="phantom-elastrat_collision_609.obj"/>
+    <mesh file="phantom-elastrat_collision_610.obj"/>
+    <mesh file="phantom-elastrat_collision_611.obj"/>
+    <mesh file="phantom-elastrat_collision_612.obj"/>
+    <mesh file="phantom-elastrat_collision_613.obj"/>
+    <mesh file="phantom-elastrat_collision_614.obj"/>
+    <mesh file="phantom-elastrat_collision_615.obj"/>
+    <mesh file="phantom-elastrat_collision_616.obj"/>
+    <mesh file="phantom-elastrat_collision_617.obj"/>
+    <mesh file="phantom-elastrat_collision_618.obj"/>
+    <mesh file="phantom-elastrat_collision_619.obj"/>
+    <mesh file="phantom-elastrat_collision_620.obj"/>
+    <mesh file="phantom-elastrat_collision_621.obj"/>
+    <mesh file="phantom-elastrat_collision_622.obj"/>
+    <mesh file="phantom-elastrat_collision_623.obj"/>
+    <mesh file="phantom-elastrat_collision_624.obj"/>
+    <mesh file="phantom-elastrat_collision_625.obj"/>
+    <mesh file="phantom-elastrat_collision_626.obj"/>
+    <mesh file="phantom-elastrat_collision_627.obj"/>
+    <mesh file="phantom-elastrat_collision_628.obj"/>
+    <mesh file="phantom-elastrat_collision_629.obj"/>
+    <mesh file="phantom-elastrat_collision_630.obj"/>
+    <mesh file="phantom-elastrat_collision_631.obj"/>
+    <mesh file="phantom-elastrat_collision_632.obj"/>
+    <mesh file="phantom-elastrat_collision_633.obj"/>
+    <mesh file="phantom-elastrat_collision_634.obj"/>
+    <mesh file="phantom-elastrat_collision_635.obj"/>
+    <mesh file="phantom-elastrat_collision_636.obj"/>
+    <mesh file="phantom-elastrat_collision_637.obj"/>
+    <mesh file="phantom-elastrat_collision_638.obj"/>
+    <mesh file="phantom-elastrat_collision_639.obj"/>
+    <mesh file="phantom-elastrat_collision_640.obj"/>
+    <mesh file="phantom-elastrat_collision_641.obj"/>
+    <mesh file="phantom-elastrat_collision_642.obj"/>
+    <mesh file="phantom-elastrat_collision_643.obj"/>
+    <mesh file="phantom-elastrat_collision_644.obj"/>
+    <mesh file="phantom-elastrat_collision_645.obj"/>
+    <mesh file="phantom-elastrat_collision_646.obj"/>
+    <mesh file="phantom-elastrat_collision_647.obj"/>
+    <mesh file="phantom-elastrat_collision_648.obj"/>
+    <mesh file="phantom-elastrat_collision_649.obj"/>
+    <mesh file="phantom-elastrat_collision_650.obj"/>
+    <mesh file="phantom-elastrat_collision_651.obj"/>
+    <mesh file="phantom-elastrat_collision_652.obj"/>
+    <mesh file="phantom-elastrat_collision_653.obj"/>
+    <mesh file="phantom-elastrat_collision_654.obj"/>
+    <mesh file="phantom-elastrat_collision_655.obj"/>
+    <mesh file="phantom-elastrat_collision_656.obj"/>
+    <mesh file="phantom-elastrat_collision_657.obj"/>
+    <mesh file="phantom-elastrat_collision_658.obj"/>
+    <mesh file="phantom-elastrat_collision_659.obj"/>
+    <mesh file="phantom-elastrat_collision_660.obj"/>
+    <mesh file="phantom-elastrat_collision_661.obj"/>
+    <mesh file="phantom-elastrat_collision_662.obj"/>
+    <mesh file="phantom-elastrat_collision_663.obj"/>
+    <mesh file="phantom-elastrat_collision_664.obj"/>
+    <mesh file="phantom-elastrat_collision_665.obj"/>
+    <mesh file="phantom-elastrat_collision_666.obj"/>
+    <mesh file="phantom-elastrat_collision_667.obj"/>
+    <mesh file="phantom-elastrat_collision_668.obj"/>
+    <mesh file="phantom-elastrat_collision_669.obj"/>
+    <mesh file="phantom-elastrat_collision_670.obj"/>
+    <mesh file="phantom-elastrat_collision_671.obj"/>
+    <mesh file="phantom-elastrat_collision_672.obj"/>
+    <mesh file="phantom-elastrat_collision_673.obj"/>
+    <mesh file="phantom-elastrat_collision_674.obj"/>
+    <mesh file="phantom-elastrat_collision_675.obj"/>
+    <mesh file="phantom-elastrat_collision_676.obj"/>
+    <mesh file="phantom-elastrat_collision_677.obj"/>
+    <mesh file="phantom-elastrat_collision_678.obj"/>
+    <mesh file="phantom-elastrat_collision_679.obj"/>
+    <mesh file="phantom-elastrat_collision_680.obj"/>
+    <mesh file="phantom-elastrat_collision_681.obj"/>
+    <mesh file="phantom-elastrat_collision_682.obj"/>
+    <mesh file="phantom-elastrat_collision_683.obj"/>
+    <mesh file="phantom-elastrat_collision_684.obj"/>
+    <mesh file="phantom-elastrat_collision_685.obj"/>
+    <mesh file="phantom-elastrat_collision_686.obj"/>
+    <mesh file="phantom-elastrat_collision_687.obj"/>
+    <mesh file="phantom-elastrat_collision_688.obj"/>
+    <mesh file="phantom-elastrat_collision_689.obj"/>
+    <mesh file="phantom-elastrat_collision_690.obj"/>
+    <mesh file="phantom-elastrat_collision_691.obj"/>
+    <mesh file="phantom-elastrat_collision_692.obj"/>
+    <mesh file="phantom-elastrat_collision_693.obj"/>
+    <mesh file="phantom-elastrat_collision_694.obj"/>
+    <mesh file="phantom-elastrat_collision_695.obj"/>
+    <mesh file="phantom-elastrat_collision_696.obj"/>
+    <mesh file="phantom-elastrat_collision_697.obj"/>
+  </asset>
+  <worldbody>
+    <body name="phantom-elastrat">
+      <geom mesh="phantom-elastrat" class="visual"/>
+      <geom mesh="phantom-elastrat_collision_0" rgba="0.5366160535658132 0.8131736045667272 0.9617261669737845 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_1" rgba="0.8798126260842428 0.9735593059107297 0.30733469550149906 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_2" rgba="0.8339577819764504 0.22574583668904458 0.9726869550887535 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_3" rgba="0.47822370062370523 0.7884039849787612 0.25360396682473296 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_4" rgba="0.8231625976917953 0.2334795613019287 0.2639781988580592 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_5" rgba="0.37355725666327433 0.16837506673144564 0.8000669261507252 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_6" rgba="0.27333843781721634 0.3827801156834538 0.35217575408937885 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_7" rgba="0.5623196154601584 0.11802510555811974 0.24982257693892262 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_8" rgba="0.9145701742046474 0.39159615901356115 0.25085785570614105 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_9" rgba="0.3273349400956608 0.4058976157385087 0.5397219431417205 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_10" rgba="0.027569580353327128 0.5878282055112225 0.820535129267217 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_11" rgba="0.1663132128301854 0.7701327884926904 0.2764579940947627 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_12" rgba="0.5347601522173719 0.6101401780335345 0.3215301864375404 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_13" rgba="0.6366504099308806 0.5030988387006836 0.021835031989723475 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_14" rgba="0.47039582464771257 0.11682380175441942 0.5481696558573966 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_15" rgba="0.5687357911251737 0.5881234187995498 0.22533378879671073 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_16" rgba="0.6573350241817935 0.09244616823705032 0.02055996445479047 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_17" rgba="0.33820230021267617 0.7134192385223537 0.3492105459811049 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_18" rgba="0.863821571687391 0.37173010001910467 0.2730552805153701 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_19" rgba="0.6329669652635312 0.8948144222822136 0.7541104590574 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_20" rgba="0.21197121102354022 0.9945655541700006 0.6225909671399255 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_21" rgba="0.6916755891032166 0.13005370346351208 0.8978791333349423 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_22" rgba="0.4210486725360252 0.33585597807717527 0.5530766381057147 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_23" rgba="0.28755077036719057 0.6253087185504247 0.42574484839289917 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_24" rgba="0.9561274020216811 0.24882543198632934 0.7114781073029027 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_25" rgba="0.9727617016661774 0.5775714132711658 0.7418500271615441 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_26" rgba="0.2804016189391616 0.1164839240907608 0.8518310851731221 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_27" rgba="0.954163783421134 0.10179732193092839 0.6754544431822079 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_28" rgba="0.2867834441747229 0.8760813334757832 0.8459719205967894 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_29" rgba="0.05932320180154882 0.23151923112894968 0.2250649215072562 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_30" rgba="0.13194067172111124 0.5289416401343907 0.33423059449751547 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_31" rgba="0.07724740662370788 0.36688833212197636 0.4480464634908693 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_32" rgba="0.8081600207061171 0.5213262994037311 0.8925722983842803 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_33" rgba="0.27664561124029474 0.9988964210709473 0.16493485133293795 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_34" rgba="0.4720232153613879 0.6608022373605398 0.05801738973060866 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_35" rgba="0.5328307624717206 0.6869815512086079 0.832146942458578 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_36" rgba="0.019686214489752496 0.449698054207022 0.04735905511294081 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_37" rgba="0.10730234169135922 0.8251587721869841 0.014546268305796639 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_38" rgba="0.4203635327010473 0.30719418143436816 0.0987658761519381 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_39" rgba="0.03407247015368253 0.8280801725449001 0.9415972235544455 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_40" rgba="0.00021486952282423477 0.9471244606414245 0.54170843597978 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_41" rgba="0.8227531831515285 0.21884463411106048 0.32861745482659244 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_42" rgba="0.15364904330380813 0.25792909708914535 0.33664169969524926 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_43" rgba="0.9006589621041508 0.27750220311725804 0.008928919620017961 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_44" rgba="0.7736855543303627 0.4619988179101757 0.5931952091104599 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_45" rgba="0.06684982810518392 0.5460550862877341 0.9484994267287697 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_46" rgba="0.6697770707648265 0.8468398407180155 0.7237609027631476 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_47" rgba="0.2297122194635296 0.29516525338623867 0.06429153331059323 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_48" rgba="0.9591917648426292 0.2570888675856483 0.7552791795175091 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_49" rgba="0.1268356495514601 0.37830426899540204 0.9217002780088902 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_50" rgba="0.45338449987522456 0.8664184784476544 0.39908641138601353 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_51" rgba="0.7999524682224151 0.5352029081162926 0.962321443503325 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_52" rgba="0.8822744123648576 0.8043624133441942 0.15693432350376402 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_53" rgba="0.7888694237860534 0.22241251576597765 0.8859600697043176 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_54" rgba="0.7124586806667689 0.43811389445693205 0.4537051597861803 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_55" rgba="0.9816273481827223 0.5768587697839914 0.4213598616574642 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_56" rgba="0.09756119208047531 0.7246348044088655 0.06308902619068879 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_57" rgba="0.08218300906299081 0.34751152020229326 0.9698163597594397 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_58" rgba="0.1945305825321525 0.8181445726716825 0.8129505182372188 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_59" rgba="0.5725889074958443 0.7768968178369371 0.766297310234399 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_60" rgba="0.610983164108583 0.8399818256801057 0.9558203632933655 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_61" rgba="0.11425601610521563 0.17958606612165207 0.5052318740565475 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_62" rgba="0.2694670668579735 0.3896416205139752 0.6867387732899499 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_63" rgba="0.1724880051403741 0.21529682723537913 0.6771830343275943 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_64" rgba="0.3905584087160625 0.27320331176011703 0.03235084013209755 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_65" rgba="0.7485617611464143 0.9349513021658286 0.32003343822538366 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_66" rgba="0.7800665204184714 0.39034970952333137 0.36841345183619756 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_67" rgba="0.15364646388861714 0.6538318009573377 0.31631043698684824 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_68" rgba="0.3451000414570474 0.3958449490611643 0.43203674368325895 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_69" rgba="0.5734060806964045 0.7178515964815421 0.9083118913010925 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_70" rgba="0.3531402306226952 0.7010551337505421 0.7911430194586361 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_71" rgba="0.6460742382860597 0.3807434270227674 0.1161254661613127 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_72" rgba="0.8921897087748081 0.05987173024527481 0.8112694677185559 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_73" rgba="0.2411364759183986 0.09715715099577482 0.04816620717689102 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_74" rgba="0.5691763858239536 0.47428362551759806 0.9494313044216433 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_75" rgba="0.40953151048067016 0.7997582205573811 0.1553472288297727 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_76" rgba="0.41490757824700275 0.4247980891857561 0.9557898914438973 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_77" rgba="0.26900417073819305 0.040364151116387026 0.06728005236778578 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_78" rgba="0.978668204386901 0.17872565349859493 0.08234461200116339 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_79" rgba="0.7827308246064704 0.3959682046674434 0.7737429821549126 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_80" rgba="0.37856145920264017 0.3835843106465032 0.6910228604690429 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_81" rgba="0.6167517865814933 0.694482716258382 0.9154332401153397 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_82" rgba="0.5378130345412679 0.5692192016113489 0.880105700942724 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_83" rgba="0.8791418726511163 0.9593064065727679 0.2428886443802165 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_84" rgba="0.6703506096282573 0.2938202705705317 0.4599010575357735 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_85" rgba="0.4217599324447431 0.527748200677719 0.39510640805259234 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_86" rgba="0.7964364727184599 0.6432860474945336 0.9748025489422498 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_87" rgba="0.38888755355219473 0.27614905009575497 0.9801031387093219 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_88" rgba="0.6452889617946781 0.46991044312319186 0.4269987813347952 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_89" rgba="0.6701489517089434 0.5439463534177871 0.0811859923137137 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_90" rgba="0.5505260932817565 0.3554684678664284 0.17338392111619583 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_91" rgba="0.9631976431611099 0.26049073837225245 0.14480669885581132 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_92" rgba="0.8377410749880044 0.9853063784337086 0.49168161691549883 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_93" rgba="0.6881524316311624 0.98742790506714 0.9044442261573596 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_94" rgba="0.9869526960105517 0.7391107933632372 0.7472017323777195 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_95" rgba="0.8844456075078494 0.8197373230956759 0.4811649212299004 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_96" rgba="0.4231939615662732 0.3418183246625539 0.7141063475689723 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_97" rgba="0.9662595398684536 0.10319059647600015 0.6101641865199398 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_98" rgba="0.715220637129749 0.8799414436822426 0.7150764633062446 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_99" rgba="0.8669696114450477 0.675050783004422 0.19400167320164186 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_100" rgba="0.210012803176166 0.7995736872945178 0.9836601261212462 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_101" rgba="0.8657759960525229 0.5898395117118486 0.7720683127361555 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_102" rgba="0.982394469492287 0.4201129564202212 0.5775895166354301 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_103" rgba="0.5815988260664843 0.023707082646223676 0.14462207843371755 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_104" rgba="0.8120639776308677 0.11246380503525777 0.06166570432163121 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_105" rgba="0.6769408345300089 0.9730416775314028 0.6721069880598282 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_106" rgba="0.13613295991227392 0.33727455361218217 0.34764758464711576 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_107" rgba="0.7743912297063653 0.21352631761815966 0.44247918250391516 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_108" rgba="0.7419897640331318 0.037534049571953165 0.18224255157574198 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_109" rgba="0.8974150067522165 0.5291686056208185 0.07149001401215671 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_110" rgba="0.2592421627334568 0.5180544195166558 0.5678743861006103 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_111" rgba="0.5008427791832795 0.14917649165166436 0.9905620923687547 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_112" rgba="0.7254257327950383 0.6875737911990403 0.36100880875881114 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_113" rgba="0.3402083110986973 0.6890926005975093 0.9948713807202019 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_114" rgba="0.9424968693851742 0.1775515035006454 0.8320231723245919 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_115" rgba="0.1756605015764825 0.5788568099907541 0.13393206300961713 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_116" rgba="0.6964524756619731 0.41761123372031816 0.7869581374355561 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_117" rgba="0.3274484446382975 0.25821174241714384 0.6623553925599472 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_118" rgba="0.24152635315998183 0.2836387693565975 0.4444863499906637 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_119" rgba="0.3158186590616452 0.0045242389677476735 0.986138394501501 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_120" rgba="0.98040665661277 0.655398281992948 0.9030666387386307 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_121" rgba="0.7679638748229464 0.7837876472130917 0.4217519994786395 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_122" rgba="0.5825334781595323 0.6662675448440434 0.690785527494448 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_123" rgba="0.3487164400611025 0.961714266841323 0.6844875299354007 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_124" rgba="0.883459461357731 0.8423540366020104 0.8818010830461721 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_125" rgba="0.1938500136201856 0.6690240566970468 0.742625200130234 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_126" rgba="0.3074891841199797 0.2777851759024642 0.8447780903788866 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_127" rgba="0.7749402388080191 0.5275631324045187 0.4632060460596664 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_128" rgba="0.41682373918185 0.9702394785394169 0.7757647238298908 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_129" rgba="0.49527798079421603 0.6357926013683209 0.5449406268265239 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_130" rgba="0.37348412102050244 0.13255972263243898 0.8473834019065601 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_131" rgba="0.31595215156495504 0.2446515702571299 0.9275520298118776 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_132" rgba="0.7903998140930736 0.4989608437923353 0.5965960507738016 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_133" rgba="0.3108386143344469 0.5786018791540426 0.03812642534098143 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_134" rgba="0.9343215191035726 0.3582907142230133 0.8082104164794893 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_135" rgba="0.4704255688030673 0.4612734984186928 0.8619241127080849 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_136" rgba="0.9540278043253785 0.17499995041782646 0.225245172447614 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_137" rgba="0.6918678746155973 0.4298849091850291 0.17385215286814026 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_138" rgba="0.6576199676723642 0.7050936177717751 0.2797839108715968 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_139" rgba="0.6800098840127894 0.7200951377642434 0.712824893244396 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_140" rgba="0.12035291632438683 0.5477120682744339 0.6708537530827995 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_141" rgba="0.3253275946538592 0.7697482661780937 0.07773347947059794 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_142" rgba="0.570481576205419 0.3395693126223992 0.37716892967705284 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_143" rgba="0.8818341183121442 0.7937694335775788 0.6718936393881061 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_144" rgba="0.5050008864079393 0.5958196908720212 0.5239775390878358 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_145" rgba="0.11954302285074758 0.870740429818644 0.28309008965936056 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_146" rgba="0.6987171493415076 0.3794405987353926 0.7911655480796975 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_147" rgba="0.9246064575945356 0.6871238475666236 0.42696374826489336 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_148" rgba="0.14332518637921277 0.5391703411110802 0.21129514669753935 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_149" rgba="0.6298321097478533 0.23447484438173216 0.3118563408254713 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_150" rgba="0.5033394583327815 0.6074545538791853 0.3484651119063631 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_151" rgba="0.6986256859659296 0.8375674865716876 0.9556001107331936 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_152" rgba="0.9461115096972642 0.5130001380902247 0.5708786614430423 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_153" rgba="0.869930710846858 0.12813923118822446 0.6405449609874451 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_154" rgba="0.28332553960486195 0.9331357857114513 0.151284038492273 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_155" rgba="0.6708584139891461 0.15060266588558158 0.7201377126557553 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_156" rgba="0.8313212668278785 0.37267724299259186 0.2441668183401028 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_157" rgba="0.4429976413290799 0.27111780844690303 0.9284728884462943 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_158" rgba="0.6867934876376688 0.7719681417414024 0.6533167425139264 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_159" rgba="0.4631240642514912 0.12602288232035874 0.9566082264778272 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_160" rgba="0.5682901491342515 0.05429311828562944 0.4686718032302295 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_161" rgba="0.582676265711965 0.14363807424588415 0.12707865068243007 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_162" rgba="0.3901917650704596 0.8448285307705998 0.2600992465511468 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_163" rgba="0.11764186540036237 0.2757469463280692 0.42585297701381497 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_164" rgba="0.237338034146522 0.06422788972288118 0.1065319703530736 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_165" rgba="0.7495994288830695 0.5536183197496047 0.7108356130772557 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_166" rgba="0.9232458966465719 0.3625833179375877 0.5707868090307919 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_167" rgba="0.9036616246251684 0.5188313443142757 0.21931554332813263 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_168" rgba="0.4134610637203824 0.8992269382685592 0.49386006760956125 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_169" rgba="0.11199649640037079 0.689962946424188 0.33059213446052593 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_170" rgba="0.9321442297694351 0.82298722287342 0.1270646461109135 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_171" rgba="0.8306311148822588 0.6283471113406808 0.8681723442844279 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_172" rgba="0.6937257913104695 0.8289958082759937 0.5111989843176334 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_173" rgba="0.8893713884248601 0.8032839295724112 0.05622205675274128 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_174" rgba="0.47894953167580867 0.21692875023425373 0.5173896062971007 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_175" rgba="0.7021679807093995 0.09215607359610123 0.4106358629023412 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_176" rgba="0.3546848265619392 0.5728184385418933 0.7036487139893145 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_177" rgba="0.4775466073130651 0.36573156040225285 0.2579463586856551 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_178" rgba="0.13591411897542316 0.6673368280283929 0.9838371807511426 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_179" rgba="0.4111263203853792 0.13780270122134408 0.34307149854400487 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_180" rgba="0.03826439990384456 0.682487913863125 0.8395629428008099 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_181" rgba="0.18766851818271169 0.3538125398462204 0.0373006929134142 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_182" rgba="0.685007958140713 0.32816656447096104 0.1314120469077289 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_183" rgba="0.9259311174355044 0.4254544827231691 0.6996117168013267 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_184" rgba="0.7165660271497899 0.7479422103918879 0.7761329930406805 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_185" rgba="0.9078514684832206 0.8568180158394805 0.4520550597218882 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_186" rgba="0.04640802188391158 0.3944515288898981 0.09734815230178562 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_187" rgba="0.41833282449621767 0.43844665076279554 0.7629422144125069 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_188" rgba="0.05238268565439663 0.8964339206277404 0.20694947965504062 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_189" rgba="0.9202916523078658 0.7668371454834656 0.0810296808139358 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_190" rgba="0.044722765783886786 0.7232765610358878 0.001498433129788701 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_191" rgba="0.932118490043197 0.4794257687018678 0.30735751984976334 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_192" rgba="0.8208336485281829 0.5272190038039973 0.454531485188414 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_193" rgba="0.7376604392359685 0.19012350106605014 0.30658632587254075 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_194" rgba="0.6733648815650614 0.7840203730752214 0.034811298010248626 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_195" rgba="0.17925683486799315 0.8226770928143591 0.11493983860280643 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_196" rgba="0.3044894549355802 0.3464583579148922 0.40946435218533495 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_197" rgba="0.12272674416967111 0.596601076232883 0.426711793637947 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_198" rgba="0.5267915692790226 0.6950614384022348 0.8289161943565677 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_199" rgba="0.18050472103487236 0.029698046060881667 0.8385021020859554 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_200" rgba="0.35172679042068633 0.18269765600105126 0.8916990623687896 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_201" rgba="0.29439592832488204 0.12022847269349735 0.9362601675270004 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_202" rgba="0.1569707723252205 0.4973127817907337 0.7749520214995561 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_203" rgba="0.8757137603593568 0.5352822720043372 0.9142301860239153 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_204" rgba="0.005807616162350815 0.344156230548306 0.6143961517275838 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_205" rgba="0.6860493865695656 0.22280465214934997 0.09328335814728705 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_206" rgba="0.19736055443384737 0.08234011819356035 0.09484563388729206 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_207" rgba="0.08041061581356168 0.33855718598823104 0.3485592281949663 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_208" rgba="0.35822590248285624 0.70262406021053 0.9326314312433306 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_209" rgba="0.5054514354294444 0.6241724466546529 0.864820619336216 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_210" rgba="0.7558262336478583 0.4822814562247244 0.5477575687060666 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_211" rgba="0.08926613674678874 0.3628959032203737 0.7418523019322788 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_212" rgba="0.9705656353786867 0.6512002317290959 0.9752215077218165 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_213" rgba="0.33646127724563324 0.4514174199968386 0.6535562746161339 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_214" rgba="0.9351531180669799 0.20830525108046583 0.4226115296419859 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_215" rgba="0.9038218250936726 0.04326697416592118 0.758515808531989 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_216" rgba="0.7741812367674804 0.9919556342319819 0.47944117646422735 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_217" rgba="0.9151725907643664 0.8744801119031743 0.4683436549030875 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_218" rgba="0.9758951624720263 0.02416620725258467 0.5904585246666546 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_219" rgba="0.6683796389002796 0.48897436886949763 0.038066953531885495 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_220" rgba="0.06569308860681655 0.3360633142549715 0.35901560325620163 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_221" rgba="0.37120380130597375 0.9216476135796292 0.16630910071485694 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_222" rgba="0.9557380397861145 0.94482319426139 0.12442056318670502 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_223" rgba="0.5195255086705318 0.19390682563262995 0.7287831129526138 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_224" rgba="0.09973299664993074 0.9748389812326552 0.6666398250574413 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_225" rgba="0.23126817575565117 0.17609619114065833 0.9121567400349331 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_226" rgba="0.3688459675915048 0.1029509502420981 0.5270712290261059 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_227" rgba="0.8754110904254463 0.8523620875112138 0.08607971874995102 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_228" rgba="0.5776956329022908 0.18649957801294026 0.5332975575071431 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_229" rgba="0.7035189530482335 0.5671007127802208 0.9799361792300384 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_230" rgba="0.3716036566431119 0.9883064008084247 0.4555854194534863 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_231" rgba="0.27913943448894096 0.09260125131072316 0.840950704480487 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_232" rgba="0.9934261816006362 0.1776995538797942 0.9150940181129537 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_233" rgba="0.14916651404074088 0.2704840819188581 0.15863203188535935 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_234" rgba="0.868165902292687 0.5420593202766616 0.706809578625831 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_235" rgba="0.07182717648062187 0.6583161387820278 0.0972665591075137 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_236" rgba="0.9334703342564825 0.2693372745601015 0.6308930135317341 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_237" rgba="0.006254035233914101 0.9816692651065779 0.8412682444376454 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_238" rgba="0.7639620031237937 0.09572246379951999 0.1896647726028089 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_239" rgba="0.9565148592071662 0.7081239356609802 0.3115707960773897 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_240" rgba="0.2655573875928927 0.8418255076102962 0.38758544589016064 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_241" rgba="0.864483196890983 0.6969879550664341 0.9074049918475185 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_242" rgba="0.0701193971808397 0.787822766120924 0.2925689751353764 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_243" rgba="0.562506968250538 0.1473997865865918 0.354866296763812 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_244" rgba="0.8542896928342644 0.4302280179302308 0.6813086600942863 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_245" rgba="0.2154536824191441 0.1988485782754238 0.34957124578021104 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_246" rgba="0.14893995385487324 0.6092275138070404 0.24308280277475713 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_247" rgba="0.7533570224985019 0.7018416786685031 0.3633802140496978 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_248" rgba="0.10964715659016155 0.07805333017508753 0.367437307641015 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_249" rgba="0.12751724175341483 0.6907232777449438 0.10409929567941312 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_250" rgba="0.271638482674042 0.604169951816679 0.9672419203019925 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_251" rgba="0.8982008252430044 0.7972578766904136 0.44765654986197934 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_252" rgba="0.33915212767041636 0.4895566166625993 0.47623783301436984 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_253" rgba="0.4559292807023444 0.11733236740237729 0.3043591876640007 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_254" rgba="0.7830942691179139 0.9593745407375758 0.3096825613393661 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_255" rgba="0.9105431837684618 0.9583837853539914 0.06318319456360677 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_256" rgba="0.35278835232250316 0.004021028649932035 0.22092560497811808 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_257" rgba="0.07762226819899909 0.6126191572363919 0.8628075510554167 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_258" rgba="0.34652516055569405 0.2629862583956448 0.4671869813264804 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_259" rgba="0.9859765933643905 0.6219062503050502 0.12390664246311311 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_260" rgba="0.5752426352126577 0.0501880967210564 0.3235290355241762 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_261" rgba="0.2582065690200749 0.2961488034493561 0.6736282124856571 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_262" rgba="0.17846720296511442 0.6256774634157868 0.14678015699060043 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_263" rgba="0.5707734902062277 0.5226003147776609 0.4603860641433464 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_264" rgba="0.9862785657239603 0.1454051039767107 0.08176733789117041 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_265" rgba="0.627557095224737 0.8804526698404692 0.19917379232771892 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_266" rgba="0.4631673058202971 0.8630774453852879 0.09199351448232629 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_267" rgba="0.6140966980242764 0.13036940799469277 0.2289049146816624 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_268" rgba="0.8457491636709955 0.9246579541188065 0.7430114147779823 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_269" rgba="0.7956204532398442 0.828330898723462 0.15638328061854978 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_270" rgba="0.9756689943298934 0.6950580071580104 0.0034643239169670492 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_271" rgba="0.10436613118216509 0.2799271871075747 0.6454242283561015 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_272" rgba="0.5012004348302647 0.0898959119690178 0.4503544046704482 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_273" rgba="0.2204246616683616 0.5787228985408717 0.5828515645649005 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_274" rgba="0.28068306413568533 0.5682220664559483 0.9112803822497297 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_275" rgba="0.24503987077020706 0.7293047088344832 0.4932107482390754 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_276" rgba="0.5350483650970418 0.35069984456202763 0.2135378680654425 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_277" rgba="0.6363822449548805 0.07296852280756516 0.34541947408899765 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_278" rgba="0.1455145380481081 0.3494452998194445 0.8703014631818122 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_279" rgba="0.4610271456836357 0.4534695640668377 0.021113637695254206 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_280" rgba="0.5393340810014804 0.17288516534568266 0.9587013022873602 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_281" rgba="0.8411181620836525 0.8273543937656772 0.8581885897891645 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_282" rgba="0.23128901008194824 0.486131739801556 0.2750792125082714 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_283" rgba="0.45039841445617623 0.9780983418956971 0.32889002702586767 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_284" rgba="0.4381135267523726 0.9522832808980645 0.306910631867799 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_285" rgba="0.39089784401187266 0.154626247875447 0.43494469728978635 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_286" rgba="0.35259572765792124 0.48285395649981944 0.6779727836555246 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_287" rgba="0.3744995168055252 0.49137471720341386 0.03273816437186661 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_288" rgba="0.9065575400298899 0.3980983514755845 0.3681041251386693 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_289" rgba="0.6271072469797019 0.3959603822456924 0.19711489279195604 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_290" rgba="0.6782500689512629 0.5252053147854253 0.17016056021749304 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_291" rgba="0.7345003232505475 0.8186404903368935 0.6018089830257941 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_292" rgba="0.06040262578267219 0.6857420508781195 0.7972454542490355 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_293" rgba="0.16012767885596169 0.6616867602346341 0.6795200331630954 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_294" rgba="0.15455260641972401 0.5178666306023572 0.8177710281887033 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_295" rgba="0.1985448713666247 0.23787781590928436 0.4818263386708215 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_296" rgba="0.3313123166274434 0.8916769628705328 0.2690940824895912 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_297" rgba="0.9706389214426916 0.7559310764523385 0.31901333996490744 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_298" rgba="0.3289985042931308 0.3392292637076135 0.10771801752680865 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_299" rgba="0.5078467928618248 0.07009444855784186 0.21371562144706135 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_300" rgba="0.16343202645973665 0.5083017649884114 0.6201623207545562 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_301" rgba="0.5571671235505905 0.03597287975881658 0.596026377960469 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_302" rgba="0.45054963849040697 0.37207681125708525 0.29235602975907093 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_303" rgba="0.5394816462469457 0.7857303229437236 0.017523755771051475 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_304" rgba="0.805641846669852 0.8311556559596194 0.48171797743516176 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_305" rgba="0.9192872269425719 0.8774751473761231 0.7013012090167653 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_306" rgba="0.3913023276665263 0.6179052288760676 0.4604124276516507 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_307" rgba="0.7706689757273707 0.8378156967540223 0.8585495227075959 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_308" rgba="0.44793406644946976 0.7234691560209853 0.011464304969501238 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_309" rgba="0.14289251798279712 0.8090578466358488 0.36325749070346813 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_310" rgba="0.8569032867002638 0.44705030548934754 0.7656572495628465 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_311" rgba="0.9403053773329604 0.592021891344406 0.6664958546180944 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_312" rgba="0.5386494356795059 0.6925189237753515 0.5574542416558245 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_313" rgba="0.7411226333625499 0.9493562991374116 0.5531075136985224 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_314" rgba="0.828469064019849 0.08559145455413786 0.23538169757976501 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_315" rgba="0.19168228915419017 0.4453777039243292 0.19115886305559604 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_316" rgba="0.6213726301837998 0.8277388486588588 0.9911524732162711 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_317" rgba="0.8266938413082668 0.11291305323030354 0.43415734298263176 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_318" rgba="0.5155189173278588 0.9653113142516103 0.4887217947270789 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_319" rgba="0.7140542315858922 0.7228146611055868 0.03763887350438844 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_320" rgba="0.07099996786673268 0.781291824611576 0.1611175618729852 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_321" rgba="0.25824334208888733 0.10658104528672774 0.44041420936111053 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_322" rgba="0.4136427258169728 0.9969178521979666 0.743966522048352 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_323" rgba="0.04236216823418226 0.8825206330246524 0.4870095479314591 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_324" rgba="0.7096524104871529 0.1848912472728813 0.36119495114589417 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_325" rgba="0.8157957972816038 0.30122509385926655 0.32507530983010724 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_326" rgba="0.984516774778146 0.12232169643647173 0.5886783612512426 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_327" rgba="0.4755630569284819 0.059535192385478 0.4193204504040119 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_328" rgba="0.48496320473937526 0.22006458812440144 0.7543099217574734 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_329" rgba="0.9412057389065582 0.9353674462833627 0.5561476091131146 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_330" rgba="0.9015494357876936 0.8996577641794716 0.012415150826700638 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_331" rgba="0.5007136307214725 0.5213401596210038 0.18505897328418985 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_332" rgba="0.2918233034089178 0.8371250637463092 0.3399862834844254 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_333" rgba="0.2752259051146475 0.19739733580781382 0.5570734962691278 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_334" rgba="0.2271535802380814 0.28337963269784616 0.640905862139711 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_335" rgba="0.3179599129760845 0.3706117743475251 0.1439148020444131 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_336" rgba="0.0061205256836788235 0.722404570112806 0.43042245743633967 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_337" rgba="0.6888237241323104 0.8809698119531979 0.47208014467355397 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_338" rgba="0.35647324009662074 0.9437494854968408 0.1866540977482496 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_339" rgba="0.5291326143687048 0.5153309285211591 0.011399690866466528 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_340" rgba="0.1554978681680277 0.9025835683936668 0.31838100386049595 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_341" rgba="0.13149110653815155 0.446237668275665 0.15283605120059385 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_342" rgba="0.5374724564932014 0.09763031500981134 0.32008570313881957 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_343" rgba="0.2971598843783497 0.9023808980682263 0.8533456212723897 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_344" rgba="0.5120893071796857 0.3452710163689877 0.799580625107197 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_345" rgba="0.8796655370031679 0.8641878921958686 0.8429536728449086 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_346" rgba="0.48251562822248295 0.9978261566118959 0.8593903769337178 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_347" rgba="0.018013610947008818 0.729278360301218 0.16796292213923403 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_348" rgba="0.06038718027014811 0.24142675767262511 0.3387790830990276 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_349" rgba="0.2215707604635605 0.5573543763623248 0.7619693637467 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_350" rgba="0.9909136899644297 0.7149314211141693 0.4150558034248536 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_351" rgba="0.09238182353434765 0.9275430784273507 0.5289539999478031 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_352" rgba="0.10960445590948742 0.44387430825372975 0.8761960673860346 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_353" rgba="0.45526362800882536 0.4531066495040973 0.42287772140849667 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_354" rgba="0.9292839493588599 0.6847682005024138 0.9345751934694102 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_355" rgba="0.8307142153805217 0.587341904109393 0.5882183792038883 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_356" rgba="0.9103446645927316 0.11189672687707708 0.7357505170190335 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_357" rgba="0.21565877894097618 0.9571425799200101 0.15105383801778682 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_358" rgba="0.13822440362359745 0.16399426510559023 0.798572182026312 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_359" rgba="0.4865213137647184 0.6530428207353987 0.9233440505671113 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_360" rgba="0.23220101929318449 0.4158854128006432 0.6105366107720018 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_361" rgba="0.1310456408983386 0.831438035539378 0.9966062147393288 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_362" rgba="0.8644839872729088 0.4518825860516198 0.11688983234707018 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_363" rgba="0.9886190208473595 0.8532720513881702 0.572421110864688 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_364" rgba="0.8686259552496902 0.8452243115208156 0.9839866612212329 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_365" rgba="0.7645943869041029 0.9404367495329345 0.9025674657183177 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_366" rgba="0.37084215152293065 0.21790023769771283 0.32177818061950514 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_367" rgba="0.14076723636415078 0.4045605608369002 0.04815849732096966 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_368" rgba="0.8171443355445253 0.601160086593918 0.8799716291809145 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_369" rgba="0.5026817777079323 0.1725297829481206 0.1348453166911152 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_370" rgba="0.9888171358012268 0.9781806200719263 0.5727127423765749 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_371" rgba="0.2246213896420549 0.8328954569745844 0.8854716954348042 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_372" rgba="0.24499614136916015 0.5650417282512573 0.9981531411308178 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_373" rgba="0.8194827050512667 0.7437843901784569 0.6396702128889884 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_374" rgba="0.6498232471145511 0.08891965030171711 0.15687269926527925 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_375" rgba="0.01104648809622566 0.029042512086613903 0.4835480083546799 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_376" rgba="0.5081443357542155 0.04078906492373113 0.9485113072062371 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_377" rgba="0.14498701733478125 0.2555493874002345 0.43756055116539483 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_378" rgba="0.4662052209877098 0.9849196355859139 0.3465362659858705 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_379" rgba="0.563069966245223 0.10160088608904139 0.7296496049309372 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_380" rgba="0.437423362698528 0.8592997285078775 0.851292329002867 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_381" rgba="0.05706426639759932 0.32542723526727135 0.23996989003524505 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_382" rgba="0.6900672312572903 0.9383013042832286 0.4960970352832813 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_383" rgba="0.07744313134396252 0.18356350134213673 0.5264681147688125 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_384" rgba="0.04779758812805612 0.6237632266063236 0.16187753954485473 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_385" rgba="0.8656247157600876 0.08648843288003327 0.5621240375491109 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_386" rgba="0.3956965272146311 0.5405524000343435 0.03216595249135468 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_387" rgba="0.26151757558089095 0.38185439560133694 0.8482208691969965 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_388" rgba="0.45781585150610016 0.3853507437275804 0.12073193735459731 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_389" rgba="0.9562543070800007 0.8010723385034293 0.6010727691126395 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_390" rgba="0.03996537700812064 0.25307383829287444 0.6934257888671334 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_391" rgba="0.9461298100798723 0.8310093418696363 0.8969558974077922 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_392" rgba="0.9534792804555856 0.5187852511646843 0.5573048384700086 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_393" rgba="0.24566018541876922 0.2874351298548611 0.5164079643960517 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_394" rgba="0.15202208069998424 0.7430652438424918 0.9273559552174337 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_395" rgba="0.11219428636270101 0.25288301840928795 0.37148184541604856 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_396" rgba="0.987210992963982 0.2286256771906231 0.8951623001083042 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_397" rgba="0.44569677656368334 0.7861600425268955 0.7659936153283216 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_398" rgba="0.9318267958028197 0.7953074936128736 0.041040810406821615 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_399" rgba="0.797111080387838 0.5948942417141762 0.11316606833176746 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_400" rgba="0.44778717314317407 0.6972375872620762 0.6171218647705202 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_401" rgba="0.8347211791478274 0.5957301552220766 0.749354880208039 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_402" rgba="0.4978341456275014 0.6462778002614681 0.38850302085586386 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_403" rgba="0.8676181352036769 0.2687098713340266 0.4201279121245808 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_404" rgba="0.7090547922659098 0.5507594648667385 0.5917374771488322 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_405" rgba="0.6285824144949055 0.1665341524584636 0.532196665074909 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_406" rgba="0.8716219134870007 0.5560106403857905 0.5916551016939919 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_407" rgba="0.40215149053320964 0.6293202996030025 0.8926645122460931 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_408" rgba="0.35014943456944014 0.943346486415897 0.2776804983303609 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_409" rgba="0.22991418548160925 0.6370159216949967 0.4058633355540716 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_410" rgba="0.31079431583939765 0.0853081686842132 0.7917306555359804 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_411" rgba="0.34385923552401043 0.327315299131521 0.7587361555040195 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_412" rgba="0.28234665350054833 0.344679412583087 0.1829235899159377 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_413" rgba="0.21945822085526712 0.9085389389351998 0.7197221580554214 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_414" rgba="0.8546993797425173 0.16325207689244603 0.9440999406781653 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_415" rgba="0.006995852541440528 0.3838172572682613 0.207260869580299 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_416" rgba="0.1041087925785551 0.7878260130554108 0.6648452248348171 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_417" rgba="0.0958915928312909 0.14018211718417506 0.1475227392238564 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_418" rgba="0.30829575798315134 0.7694875886742732 0.14620856388629944 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_419" rgba="0.6020020475855803 0.5257765999739313 0.44935785781759974 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_420" rgba="0.7150171695778511 0.6026357111219338 0.8329294453762776 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_421" rgba="0.09625334546111797 0.4007981634473402 0.8272683133364035 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_422" rgba="0.9098520844054079 0.27393572450950765 0.5030146314463634 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_423" rgba="0.41305527009609355 0.4385121485525608 0.05272915404266898 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_424" rgba="0.47886301462706604 0.8454777239738036 0.3397593855126082 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_425" rgba="0.21715204488056528 0.5733214508883917 0.49739399307157184 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_426" rgba="0.9015504916177461 0.9476660940446284 0.6419772345338117 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_427" rgba="0.2925950704889285 0.3794914782895137 0.7881223938945767 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_428" rgba="0.4349196065553078 0.7259847201226155 0.27111253383557754 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_429" rgba="0.9154377368309982 0.25150588490955583 0.4487799730451444 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_430" rgba="0.556637494342925 0.2748409997359421 0.3247204269943218 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_431" rgba="0.9624893133492451 0.8064083160625644 0.22810989271546644 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_432" rgba="0.827368206128285 0.23062031631581392 0.07672085857596156 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_433" rgba="0.35468478570148454 0.022303822852199118 0.5590663604053635 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_434" rgba="0.3485434656766133 0.4544232042280688 0.7308183871889009 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_435" rgba="0.7140557656696516 0.9151895247280722 0.7721607270131818 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_436" rgba="0.2969046078342409 0.19233853298615433 0.7306550906153402 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_437" rgba="0.04541862258191165 0.02065933122050434 0.7495583641021186 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_438" rgba="0.28974863904584547 0.4081602413028781 0.610836036246338 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_439" rgba="0.08409637061925135 0.2323482459886841 0.3157185214347623 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_440" rgba="0.25691358066373504 0.20558249555798558 0.5461663063848982 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_441" rgba="0.30708336534398817 0.030644667170294904 0.8167483428992098 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_442" rgba="0.3714147718541779 0.7640596782181156 0.5167380959821647 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_443" rgba="0.1387454359301873 0.9611496279600448 0.40910374360148594 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_444" rgba="0.25033262305103743 0.6487433552642922 0.3223916978760074 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_445" rgba="0.7874128003005344 0.813016664693384 0.16407231684572565 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_446" rgba="0.7980699158137088 0.3208475755707896 0.17186091476480192 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_447" rgba="0.9353231406973559 0.4005194879118493 0.19357213516443128 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_448" rgba="0.5980856498875871 0.18852151594207123 0.3524451728184319 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_449" rgba="0.15856498755569703 0.1550352023816235 0.36203966111829566 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_450" rgba="0.44685750185358064 0.5484278754515173 0.04555492362332314 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_451" rgba="0.5266435492007934 0.5949572704083168 0.7172629094743384 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_452" rgba="0.824182233555294 0.5191493581873524 0.5481229156435968 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_453" rgba="0.20891994108874978 0.6344024281070484 0.7922544340916252 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_454" rgba="0.04266765486743351 0.18617441297147286 0.07877560531895755 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_455" rgba="0.921200857756168 0.9908195861878317 0.9339478339058854 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_456" rgba="0.32000310055498005 0.8536389600773141 0.0983150691190885 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_457" rgba="0.38568379073487546 0.13659519630615813 0.8081010004354436 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_458" rgba="0.5307343195058508 0.9983423619136151 0.8089747845130174 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_459" rgba="0.46438600499703275 0.22028802228419153 0.2385650252752377 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_460" rgba="0.49547819198799936 0.9116913247531071 0.6984884485119155 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_461" rgba="0.5905256514522422 0.2989229397256461 0.7062728086843441 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_462" rgba="0.3661496382447129 0.769205663372887 0.649462310618347 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_463" rgba="0.5620566835527208 0.6774090029603818 0.24220126944602283 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_464" rgba="0.5830809229035786 0.2405494299470201 0.4770115108752834 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_465" rgba="0.1610569765587354 0.3784964403787816 0.318950763429967 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_466" rgba="0.38295714452998453 0.6425462024105156 0.2722143706597051 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_467" rgba="0.6496817995827084 0.35519518909606695 0.8003911659318573 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_468" rgba="0.10528403584332491 0.8139365934741137 0.9942756667815107 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_469" rgba="0.3228010106617837 0.8809073483333929 0.26455601881899193 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_470" rgba="0.6945878177656558 0.3872691131538121 0.837931455653047 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_471" rgba="0.21678737446120244 0.78024948426478 0.3953379055058799 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_472" rgba="0.9665505181534545 0.6559935096672472 0.5927883569692685 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_473" rgba="0.05992013076857916 0.7804862917780006 0.8907645439459467 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_474" rgba="0.41544390256106833 0.8623869470228565 0.04560950189450075 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_475" rgba="0.03266476022908238 0.5716232693292161 0.29336370717770155 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_476" rgba="0.18861108619703548 0.8167161035088233 0.9210376973498486 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_477" rgba="0.13410845267386529 0.8978540713967383 0.7857423718777578 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_478" rgba="0.5404118059501498 0.25976173816836745 0.6354718859717814 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_479" rgba="0.8282053230797508 0.905458376924363 0.18594483931592576 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_480" rgba="0.23380957051868767 0.9832156870289227 0.5317642587716275 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_481" rgba="0.8058817362278227 0.5241385824984656 0.38309553315497447 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_482" rgba="0.6280239082105765 0.4294919184616821 0.14697430718052285 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_483" rgba="0.4091556708713777 0.23392269791234743 0.8230116364936416 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_484" rgba="0.1951791710344155 0.9340077335909107 0.05082003790487799 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_485" rgba="0.6618220457190128 0.8408675021543166 0.42833279163882 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_486" rgba="0.22029271382827154 0.7727675303921034 0.7169146781777477 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_487" rgba="0.3536493051436621 0.5421284354744376 0.8298914060690376 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_488" rgba="0.3408149022917589 0.13719207909784714 0.8924863500161969 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_489" rgba="0.2583645730821743 0.3553176265516521 0.2991995343063678 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_490" rgba="0.1383434053134408 0.1670805544426609 0.7030953195611029 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_491" rgba="0.02427596270366117 0.8460531156282104 0.3359494197104834 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_492" rgba="0.18738131192068996 0.7284033565753977 0.9768107908883458 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_493" rgba="0.7827818687442376 0.28534610847288466 0.3773132678365553 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_494" rgba="0.31263807412785793 0.030598864445438134 0.6238002775711499 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_495" rgba="0.8493683541435846 0.47292317163722064 0.9647909095927616 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_496" rgba="0.6461711619112609 0.027622202242116978 0.9861714395737196 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_497" rgba="0.650122139097684 0.036173863348591184 0.9576985109132418 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_498" rgba="0.16735584498860867 0.11588021814949234 0.6312274492271321 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_499" rgba="0.321465636214731 0.7937749148524934 0.010423832786463416 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_500" rgba="0.008716088168867264 0.4051004503724813 0.45522803228379394 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_501" rgba="0.9680518477280621 0.12866970933332633 0.9322050342805072 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_502" rgba="0.7529160944040535 0.08541804039706513 0.7425921288687765 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_503" rgba="0.8507438968800709 0.21488868797964145 0.2560625932954469 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_504" rgba="0.8623357503989105 0.3559109927229692 0.7232989727311396 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_505" rgba="0.2803158005150851 0.7570256100291284 0.004066203962946102 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_506" rgba="0.30395187338487284 0.04518442951529622 0.6698909694810875 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_507" rgba="0.402863451884395 0.42625397621396655 0.7974680968023933 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_508" rgba="0.12626572366015354 0.5694912287029575 0.19091746616594074 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_509" rgba="0.11108071587478463 0.08514125716307308 0.5686193869882434 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_510" rgba="0.26111635312508097 0.5585640583503338 0.6063196662539684 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_511" rgba="0.47435046581077256 0.24052007945055198 0.3982704392388786 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_512" rgba="0.36742762125842654 0.7570012368711315 0.15819192015143924 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_513" rgba="0.03340840884676666 0.8419242575361113 0.2574118687810175 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_514" rgba="0.03090244897484884 0.3362967689491083 0.5574351667497079 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_515" rgba="0.5654768592618373 0.44460338184239445 0.6530927460525424 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_516" rgba="0.3447922398882054 0.8059168084588365 0.1144363148977251 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_517" rgba="0.9383685525926824 0.39988819667621534 0.1580437526399613 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_518" rgba="0.3059444816724398 0.4143307383709752 0.38410452517139115 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_519" rgba="0.3714057692055174 0.6894325846977434 0.2015743469004555 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_520" rgba="0.2898331635398317 0.7697405237756733 0.6596816334007565 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_521" rgba="0.6332628636439983 0.9308892719746262 0.8520645312262511 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_522" rgba="0.12618721699954327 0.4403324747245164 0.42059308576941923 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_523" rgba="0.9351582456235674 0.5488694008213102 0.28751871410661856 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_524" rgba="0.31641436179362437 0.6636265345867977 0.4159151543356372 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_525" rgba="0.8067738613784242 0.2890365437416076 5.051956081880693e-05 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_526" rgba="0.14367096948785052 0.13729130736128192 0.5831999738012861 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_527" rgba="0.4206725786647999 0.051442198892592494 0.8482635980509439 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_528" rgba="0.3928217487031689 0.25420967526812166 0.9377547545874375 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_529" rgba="0.2436442512092658 0.6809045338527732 0.15108887941428162 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_530" rgba="0.955235285437005 0.929206082805234 0.9348582999787487 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_531" rgba="0.4049845370880475 0.5003396608831328 0.9166293752773264 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_532" rgba="0.011961203410402521 0.446059157863571 0.11682910084688225 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_533" rgba="0.4863623592159605 0.8862723721780357 0.2458616976377519 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_534" rgba="0.8021369035498371 0.5568888224913479 0.28972530655589634 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_535" rgba="0.5237430894362131 0.8388342621583207 0.006256729271818862 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_536" rgba="0.9739811431669934 0.6484210817297885 0.14043723927675023 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_537" rgba="0.1363660127624936 0.40429771093119227 0.3276293628919844 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_538" rgba="0.9142435684948071 0.13498119180987678 0.6611947038614093 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_539" rgba="0.02533658976853803 0.7573525733000821 0.6215169265905879 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_540" rgba="0.7008010085048837 0.8650589673973809 0.16943100470373473 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_541" rgba="0.22463247121988617 0.723555003755965 0.8457103109148976 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_542" rgba="0.010501493758662828 0.14191497216715687 0.8142807191614799 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_543" rgba="0.6812133376199775 0.8652130654078773 0.7797867478461424 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_544" rgba="0.5624595362430259 0.8375872237909437 0.26949553528213577 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_545" rgba="0.6483219328460512 0.6693765199126449 0.6262966727086609 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_546" rgba="0.045046570096750504 0.8377878891697033 0.9933524767384023 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_547" rgba="0.9688120496326436 0.37678546368079935 0.6415737604763018 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_548" rgba="0.7581068310563289 0.7483205734679872 0.018995463345634955 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_549" rgba="0.2600509937230172 0.7528823259576002 0.1436451244219985 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_550" rgba="0.7147479272890602 0.7030930258933625 0.26969974472880387 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_551" rgba="0.13530763454815986 0.9295027793964594 0.962591385539561 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_552" rgba="0.2522093392415199 0.7030208502625345 0.2463583958219212 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_553" rgba="0.6592716900318533 0.16428206809776535 0.7679162831313014 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_554" rgba="0.5384814907712079 0.8456688521863414 0.22298898960055502 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_555" rgba="0.8049146077995204 0.09726636587768989 0.8035793530051466 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_556" rgba="0.545532551295375 0.7045574624329669 0.7923192106236643 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_557" rgba="0.9178546727506784 0.8344032962911095 0.8915636571453454 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_558" rgba="0.2282111546053709 0.534751818720963 0.48561466874670933 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_559" rgba="0.2830239098776235 0.056842699681641795 0.6292450351274375 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_560" rgba="0.5281955983028725 0.8311677722502697 0.30809899191381007 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_561" rgba="0.32648940291688666 0.21547372147038057 0.34855627231670205 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_562" rgba="0.5559983317392323 0.25270509311149614 0.970314161113167 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_563" rgba="0.7468055625516391 0.9489979143040116 0.8471048540700488 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_564" rgba="0.5096160151697571 0.22887467796330163 0.9637921764203633 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_565" rgba="0.06390767865410862 0.23158792425306118 0.3377655896424755 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_566" rgba="0.6476214837350346 0.6196905528562142 0.6544859225809143 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_567" rgba="0.36494309361345556 0.5110265653389998 0.6259760126614159 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_568" rgba="0.5544188386466071 0.45027801397087586 0.5171313327377707 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_569" rgba="0.5829736795509699 0.9444442007927483 0.35086035670512905 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_570" rgba="0.17083954666069978 0.3258169157347056 0.5105272122341502 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_571" rgba="0.05560275182934937 0.741871845656632 0.6894984916196484 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_572" rgba="0.11773088354429995 0.79060380091257 0.485608610816216 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_573" rgba="0.42656297754120054 0.4589537266462391 0.7535062912927624 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_574" rgba="0.26909335335919604 0.06786668212988389 0.7045657251948394 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_575" rgba="0.8731618027216721 0.09455421708036627 0.8945167178121239 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_576" rgba="0.12422346865698741 0.3283763782885589 0.3692311469969124 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_577" rgba="0.7570029979191482 0.45470967009202734 0.8514977504998028 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_578" rgba="0.07097592822745735 0.5693711508191311 0.9340386042593611 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_579" rgba="0.6635118276485972 0.5287349182863956 0.6794788727354935 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_580" rgba="0.8296772283672115 0.33857098699072086 0.5039067777915269 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_581" rgba="0.0036764702760312407 0.7132611597468776 0.31787711630033444 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_582" rgba="0.8199773013468485 0.9936725441183158 0.06086713839692692 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_583" rgba="0.15296474019512118 0.9765382178230079 0.4165096136376817 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_584" rgba="0.48514729743977225 0.6435772088976602 0.748467254543898 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_585" rgba="0.21390724371970793 0.02268348577041479 0.43969118892888137 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_586" rgba="0.005131515392782338 0.03849123758551409 0.8635253016284243 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_587" rgba="0.34513228986978683 0.33172284844285693 0.42458390441864036 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_588" rgba="0.956223201574436 0.8035424579752319 0.299347864640078 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_589" rgba="0.8415418298470283 0.319158342442479 0.6718788222341833 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_590" rgba="0.37338880379331274 0.8619203293451146 0.9714749351535914 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_591" rgba="0.710555011344545 0.6561872349935949 0.7156600452228659 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_592" rgba="0.0825888518532999 0.8376158857370942 0.4849622208025719 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_593" rgba="0.31434381639175213 0.814624400740683 0.3196789124979802 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_594" rgba="0.8872719399326141 0.40976680195507886 0.8592562422187587 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_595" rgba="0.9624891424857223 0.17643234080719716 0.4413075717250994 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_596" rgba="0.9613860461570553 0.19954396578706945 0.11668321197891729 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_597" rgba="0.6760000711033824 0.06054882398723049 0.7967291575881321 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_598" rgba="0.1376720679662813 0.7972659010348685 0.2820339097437644 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_599" rgba="0.5425588273199005 0.04320095572239069 0.39918181233037797 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_600" rgba="0.01688054206709433 0.4512486766232896 0.19889332670751314 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_601" rgba="0.652583157346038 0.08213215929008144 0.8211601812013752 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_602" rgba="0.6337250929085105 0.6550537555733964 0.6000657915393159 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_603" rgba="0.041586538864603506 0.12526589325528648 0.42588169716672153 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_604" rgba="0.03657411708573555 0.5903419892105886 0.3472168748296125 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_605" rgba="0.03193410914548389 0.3563742234689009 0.4079055758352861 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_606" rgba="0.2751776931007558 0.08941693816794993 0.5373709052299718 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_607" rgba="0.4307531122288446 0.8982607382506438 0.8468870136814554 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_608" rgba="0.6228462733569639 0.83674765012794 0.21580425638150913 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_609" rgba="0.5419435694159773 0.9151167882122762 0.1740263563981269 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_610" rgba="0.7795569913689988 0.6801014942151743 0.9737714715381677 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_611" rgba="0.3416043301198808 0.51584029055776 0.8354250159748783 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_612" rgba="0.8172358752697034 0.5048192008154082 0.3181502813100243 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_613" rgba="0.2910761567176914 0.4274338194203978 0.24564062483068816 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_614" rgba="0.18946551926333743 0.8977269593105089 0.10087855231205489 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_615" rgba="0.5238273115407152 0.1508780032330106 0.2191708343557508 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_616" rgba="0.2818024690214489 0.4706588106625633 0.1752504516486425 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_617" rgba="0.34817311481130075 0.9863170388069525 0.7109004021906735 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_618" rgba="0.7777649199516039 0.8187655248536481 0.5577457846610432 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_619" rgba="0.9043755256124932 0.16150801672533965 0.46345686550903664 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_620" rgba="0.251969058265626 0.5069049906934772 0.0889183324150461 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_621" rgba="0.22281487460970417 0.3844332924465286 0.47620397403350023 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_622" rgba="0.8956094510014603 0.8029958109487764 0.7979333000138299 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_623" rgba="0.5944907953327521 0.28046570648219205 0.05963280413285277 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_624" rgba="0.2358053524058561 0.9729618925499458 0.8234989705866697 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_625" rgba="0.06412775678834359 0.4500344569920486 0.9461959592236726 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_626" rgba="0.22030262751201612 0.5338110987185591 0.3970104363672743 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_627" rgba="0.2516480330179257 0.24466049205753881 0.37992138606658454 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_628" rgba="0.14091251755452006 0.6538169205199481 0.4413565672356754 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_629" rgba="0.11022985239832428 0.5179420919624415 0.9007133723820483 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_630" rgba="0.5776549755115052 0.5055587292912256 0.5078325986752006 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_631" rgba="0.2799602023478702 0.11854093259958387 0.754526907353725 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_632" rgba="0.9293474446958083 0.9364538240410311 0.1257437239157273 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_633" rgba="0.14890303121844517 0.46446589852892184 0.9669603232142698 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_634" rgba="0.4008920822886375 0.1772701605180702 0.8214432728973353 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_635" rgba="0.8779717125070433 0.6782708202664371 0.26709462565633135 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_636" rgba="0.12360850803033785 0.6825946226436893 0.02952371304668 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_637" rgba="0.9487735897316973 0.7364932219173916 0.3689406552440785 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_638" rgba="0.39103290739052743 0.34447612163944186 0.913984272557425 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_639" rgba="0.707363017658233 0.5207574565614869 0.28184144678805 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_640" rgba="0.7423030905710823 0.2546435337581575 0.5730111466269739 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_641" rgba="0.40686232649611187 0.5795673663837447 0.733654219370993 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_642" rgba="0.6127140134264607 0.20935406778380683 0.4233204081815778 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_643" rgba="0.6978685839809287 0.1207742349677744 0.03283169731518709 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_644" rgba="0.5518923582107497 0.49081933555873936 0.47962722692201276 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_645" rgba="0.22362204987110823 0.3796870692790917 0.40394997613366534 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_646" rgba="0.91621942585825 0.5390896962883108 0.5954593233836989 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_647" rgba="0.7391243818011841 0.09100994602426904 0.8801601896073356 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_648" rgba="0.8940524061587021 0.39948465288588475 0.7865264952502653 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_649" rgba="0.1734454460695195 0.530843030086087 0.6805114614848811 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_650" rgba="0.12968658198699867 0.3162101249540238 0.007356422802618279 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_651" rgba="0.23147238485027077 0.06146612944909424 0.510701999895828 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_652" rgba="0.9130489243582066 0.00960097406596827 0.6382991649000364 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_653" rgba="0.18194029095967146 0.7223723598391887 0.4276730251384968 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_654" rgba="0.5288815308365796 0.19118884562747207 0.36884703817888587 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_655" rgba="0.5424258391464009 0.5109892577482262 0.5429683001809462 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_656" rgba="0.1518123620833256 0.8917346595986325 0.470180551347008 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_657" rgba="0.6407707502314486 0.041973515245445014 0.8759580217256506 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_658" rgba="0.6557303611257912 0.24106543041098583 0.5766757877749732 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_659" rgba="0.003956675317124292 0.3322429792721908 0.00020578981595009704 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_660" rgba="0.8283205413662565 0.0226220346433188 0.4888091635599616 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_661" rgba="0.8697917115301211 0.30255223568866463 0.468129710097828 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_662" rgba="0.8339789072147743 0.9652259225455321 0.7375076291883604 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_663" rgba="0.9540929664519379 0.6237629452080714 0.2799202786561542 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_664" rgba="0.7143764764937843 0.9766683780347023 0.2089407611392683 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_665" rgba="0.6662765990331845 0.2625517148795359 0.6135844779831101 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_666" rgba="0.3872783606940915 0.0705534678398958 0.787234095746509 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_667" rgba="0.9257599474298064 0.8389932877625618 0.4308613209223833 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_668" rgba="0.192725453878557 0.6319771313213655 0.01251859086611129 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_669" rgba="0.8199499302199887 0.8824356501795734 0.3719419742345653 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_670" rgba="0.23735112828908955 0.6734719139555714 0.7682768688499466 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_671" rgba="0.7308380944913523 0.8489087647275821 0.7004598426124486 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_672" rgba="0.4236446081573124 0.34914632415481783 0.030405737914746767 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_673" rgba="0.02883847571028797 0.9740641308183997 0.7501762553777573 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_674" rgba="0.18266427053118528 0.485120850210891 0.8456614896349394 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_675" rgba="0.661828961270795 0.6995917225795034 0.7104229827344606 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_676" rgba="0.42216544142140455 0.9083728968283814 0.8089739697319239 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_677" rgba="0.5411173935471706 0.8442449390794677 0.7765417204695833 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_678" rgba="0.0437189833770788 0.4770237338193336 0.5241587427080122 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_679" rgba="0.9936841914096559 0.3500479642009461 0.012666590613603201 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_680" rgba="0.2148256827667011 0.089342014637531 0.6036813427793916 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_681" rgba="0.31992644778794355 0.18819743900826114 0.33512331746116797 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_682" rgba="0.836989690126261 0.4459611203697552 0.6665503571406285 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_683" rgba="0.47042344464915997 0.0691353721168455 0.7262297642538291 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_684" rgba="0.7448469305441263 0.4010003934755313 0.08436327748566297 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_685" rgba="0.7922550380481111 0.04362689266227571 0.7491431839251512 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_686" rgba="0.5191879605520514 0.844230966238488 0.9346666448010365 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_687" rgba="0.6709221387558766 0.008450892599681459 0.518755891506497 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_688" rgba="0.8670890991914546 0.12459165557842611 0.04152233554929574 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_689" rgba="0.14145911119776233 0.06197607708933495 0.9651824027282137 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_690" rgba="0.73662078113092 0.5314343860056746 0.8801055944463518 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_691" rgba="0.7672389072695832 0.35248767964290173 0.29377723600513483 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_692" rgba="0.7004619650642261 0.888736657028728 0.1872789435755069 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_693" rgba="0.6274911371527666 0.9120880859174656 0.22843874989761714 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_694" rgba="0.21327922676882338 0.1294207232455561 0.7096256667265918 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_695" rgba="0.3394718802880424 0.349440898356575 0.20623331052658112 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_696" rgba="0.28684963868682534 0.6021770692761931 0.893812154146513 1" class="collision"/>
+      <geom mesh="phantom-elastrat_collision_697" rgba="0.4208775967989795 0.34684143346979834 0.2364287954436809 1" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>
