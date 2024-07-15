@@ -1,6 +1,9 @@
 phantoms.blend
 phantoms.blend1
 raw
+make_mjcf.bash
+make_mjcf.sh
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
