@@ -9,7 +9,7 @@ mcts_nodes=20
 resolution=10000
 seed=0
 
-obj2mjcf --obj-dir ./preprocessed/phantom-elastrat/ --decompose --compile-model --save-mjcf \
+obj2mjcf --obj-dir ./preprocessed/ --decompose --compile-model --save-mjcf \
   --coacd-args.preprocess-resolution $preprocess_resolution \
   --coacd-args.threshold $threshold \
   --coacd-args.max-convex-hull $max_convex_hull \
